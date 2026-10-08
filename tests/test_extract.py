@@ -264,3 +264,31 @@ def test_budget_cap_stops_calls(workdir, monkeypatch):
     llm.complete_json("s", "one")
     with pytest.raises(llm.BudgetExceeded):
         llm.complete_json("s", "two")
+
+
+def test_rejected_optional_parameters_are_dropped(workdir, monkeypatch):
+    sent = []
+
+    class Reply:
+        def __init__(self, status, text=""):
+            self.status_code, self.text = status, text
+
+        def raise_for_status(self):
+            assert self.status_code == 200
+
+        def json(self):
+            return {"choices": [{"message": {"content": '{"fields": {}}'}}]}
+
+    def fake_post(url, json, headers, timeout):
+        sent.append(dict(json))
+        if "reasoning_effort" in json:
+            return Reply(400, "Unsupported parameter: reasoning_effort")
+        return Reply(200)
+
+    monkeypatch.setenv("LLM_PROVIDER", "openai")
+    monkeypatch.setenv("LLM_API_KEY", "test")
+    monkeypatch.setenv("LLM_REASONING_EFFORT", "none")
+    monkeypatch.setattr(llm.requests, "post", fake_post)
+    assert llm.complete_json("s", "u") == {"fields": {}}
+    assert sent[0]["reasoning_effort"] == "none" and sent[0]["temperature"] == 0
+    assert "reasoning_effort" not in sent[1] and sent[1]["temperature"] == 0

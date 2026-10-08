@@ -40,6 +40,7 @@ def _settings() -> dict:
         "key": (os.getenv("LLM_API_KEY") or "").strip(),
         "base_url": (os.getenv("LLM_BASE_URL") or "").strip().rstrip("/"),
         "max_calls": int(os.getenv("LLM_MAX_CALLS") or 80),
+        "reasoning_effort": (os.getenv("LLM_REASONING_EFFORT") or "").strip(),
     }
     names = {"provider": "LLM_PROVIDER", "model": "LLM_MODEL", "key": "LLM_API_KEY"}
     missing = [label for name, label in names.items() if not settings[name]]
@@ -99,6 +100,17 @@ def _call_anthropic(settings: dict, system: str, user: str) -> str:
     return "".join(block.get("text", "") for block in response.json()["content"])
 
 
+def _post_dropping_rejected(url: str, body: dict, headers: dict, optional: tuple[str, ...]):
+    """POST; if the API answers 400 and names an optional parameter, drop it and try again."""
+    response = requests.post(url, json=body, headers=headers, timeout=TIMEOUT)
+    for name in optional:
+        if response.status_code == 400 and name in body and name in response.text:
+            body.pop(name)
+            response = requests.post(url, json=body, headers=headers, timeout=TIMEOUT)
+    response.raise_for_status()
+    return response
+
+
 def _call_openai(settings: dict, system: str, user: str) -> str:
     url = (settings["base_url"] or "https://api.openai.com/v1") + "/chat/completions"
     body = {
@@ -107,12 +119,10 @@ def _call_openai(settings: dict, system: str, user: str) -> str:
         "response_format": {"type": "json_object"},
         "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}],
     }
+    if settings.get("reasoning_effort"):  # some reasoning models only accept temperature 0 with effort "none"
+        body["reasoning_effort"] = settings["reasoning_effort"]
     headers = {"Authorization": f"Bearer {settings['key']}"}
-    response = requests.post(url, json=body, headers=headers, timeout=TIMEOUT)
-    if response.status_code == 400 and "temperature" in response.text:
-        body.pop("temperature")
-        response = requests.post(url, json=body, headers=headers, timeout=TIMEOUT)
-    response.raise_for_status()
+    response = _post_dropping_rejected(url, body, headers, ("reasoning_effort", "temperature"))
     return response.json()["choices"][0]["message"]["content"]
 
 
@@ -124,7 +134,7 @@ def complete_json(system: str, user: str) -> dict:
     if settings["provider"] not in PROVIDERS:
         raise ConfigError(f"LLM_PROVIDER must be one of {sorted(PROVIDERS)}")
     key = hashlib.sha256(
-        "\x1f".join([settings["provider"], settings["model"], system, user]).encode("utf-8")
+        "\x1f".join([settings["provider"], settings["model"], settings["reasoning_effort"], system, user]).encode("utf-8")
     ).hexdigest()
     cache_file = CACHE_DIR / f"{key}.json"
     if cache_file.exists():
