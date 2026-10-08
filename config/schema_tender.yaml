@@ -12,18 +12,18 @@ fields:
   - name: agency
     type: string
     required: true
-    description: The government agency issuing the tender, as printed.
+    description: The name of the organisation issuing the tender, as printed in the breadcrumb after "GETS >".
     keywords: [agency, organisation, issued by]
   - name: title
     type: string
     required: true
-    description: The title of the tender notice, as printed.
+    description: The tender name, as printed after "Tender Name".
     keywords: [title, tender name]
   - name: reference
     type: string
     required: true
-    description: The tender reference or RFx ID.
-    validate_regex: "^[A-Za-z0-9 ./_-]{3,40}$"
+    description: The RFx ID number of the notice. Digits only. Not the "Reference #" value.
+    validate_regex: "^[0-9]{6,10}$"
     keywords: [reference, RFx, ID]
   - name: close_date
     type: date
@@ -33,15 +33,15 @@ fields:
   - name: category
     type: string
     required: false
-    description: The procurement category as labelled on the notice. Join several with "; " in alphabetical order.
+    description: Every entry listed under Categories, each as printed ("code - name"). Join several with "; " in alphabetical order.
     keywords: [category, UNSPSC]
   - name: region
     type: string
     required: false
-    description: The region or regions the tender covers, as labelled on the notice. Join several with "; " in alphabetical order.
+    description: Every region listed under Regions, as printed. Join several with "; " in alphabetical order.
     keywords: [region, location]
   - name: contact_name
     type: string
     required: false
-    description: The name of the contact person only. No job title, email or phone.
+    description: The contact name printed after "Contact" (a person or a team). No job title, email or phone.
     keywords: [contact, enquiries]
