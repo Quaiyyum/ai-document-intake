@@ -25,8 +25,16 @@ Plan: "Project A - Agent Execution Plan". One line per task: status, the check, 
 | T7.1-T7.3 | WAITING H4 | | loan form not chosen yet |
 | T8.1 | done (code) | | `src/export_bi.py` |
 | T9.1-T9.9 | done | `python -m pytest -q` | 21 passed, no network, no key |
+| T0.5 / H1 | done | `.env` has provider, model, key | openai, gpt-6-luna, LLM_REASONING_EFFORT=none, LLM_MAX_CALLS=120 |
+| T1.2-T1.4 / H2 | done | 50 PDFs, all with a text layer | 50 notice pages printed to PDF on 2026-10-09; 1255 to 4261 characters each; sources.md stamped with date and sha256 |
+| T2.1 | done | sets do not overlap | Random(42): 10 gold, 5 dev, 35 volume; see gold/split.md |
+| T2.2-T2.3 / H3 | done | 0 format errors | rule-based draft (no LLM) verified by Saleh; 0 of 70 cells corrected |
+| T2.4 | done | gold commit hash | 763817110e47346ca2702b2d128db0a489e10e5b |
 
 Deviations from the plan
 - `src/schema.py` names the field model `FieldSpec` (not `Field`) to avoid clashing with pydantic's `Field`.
 - Lead schema field names carry a prefix or suffix (`lead_email`, `budget_nzd`, ...) so they cannot collide with type names in the code.
 - The weakest-field paragraph lives in `output/weakest_field_note.md` and is pulled into the report, so regenerating the report never overwrites Saleh's edit.
+- Corpus is 50 tenders (plan said 15) to give the dashboard real volume; the gold set is still 10.
+- Gold labels were pre-filled by `gold/prefill_draft.py` (fixed rules, no LLM) and then verified by hand, instead of typed from scratch.
+- `reference` is defined as the RFx ID, because the notice's own "Reference #" line is often blank.
