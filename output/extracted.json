@@ -3037,5 +3037,427 @@
         "final_value": null
       }
     }
+  },
+  "LEAD-2026-0001": {
+    "doc_id": "LEAD-2026-0001",
+    "source_file": "data/raw/lead/lead_0001.pdf",
+    "schema_used": "schema_realestate_lead",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 11:48",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "lead_name": {
+        "value": "Jane Example",
+        "evidence": "From: Jane Example",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "lead_email": {
+        "value": "jane@example.com",
+        "evidence": "<jane@example.com>",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "lead_phone": {
+        "value": "000 000 0000",
+        "evidence": "phone on 000 000 0000",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "property_of_interest": {
+        "value": "12 Nowhere Street, Exampleton",
+        "evidence": "12 Nowhere Street, Exampleton",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "budget_nzd": {
+        "value": "900000",
+        "evidence": "We can go up to $900,000",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "move_timeframe": {
+        "value": "within three months",
+        "evidence": "hoping to buy within three months",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "preferred_contact": {
+        "value": "phone",
+        "evidence": "best way to reach me is by phone",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "LEAD-2026-0002": {
+    "doc_id": "LEAD-2026-0002",
+    "source_file": "data/raw/lead/lead_0002.pdf",
+    "schema_used": "schema_realestate_lead",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 11:48",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "lead_name": {
+        "value": "John Sample",
+        "evidence": "John Sample here",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "lead_email": {
+        "value": "john@example.com",
+        "evidence": "john@example.com",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "lead_phone": {
+        "value": null,
+        "evidence": null,
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "property_of_interest": {
+        "value": "4 Placeholder Lane (Sampleville)",
+        "evidence": "is 4 Placeholder Lane (Sampleville) still available??",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "budget_nzd": {
+        "value": null,
+        "evidence": "not sure on price range yet",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "move_timeframe": {
+        "value": "no rush on timing",
+        "evidence": "no rush on timing",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "preferred_contact": {
+        "value": "email",
+        "evidence": "just email me back",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "LEAD-2026-0003": {
+    "doc_id": "LEAD-2026-0003",
+    "source_file": "data/raw/lead/lead_0003.pdf",
+    "schema_used": "schema_realestate_lead",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 11:48",
+    "confidence_min": 0.0,
+    "error": null,
+    "fields": {
+      "lead_name": {
+        "value": "Pat Placeholder",
+        "evidence": "Your name ........... Pat Placeholder",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "lead_email": {
+        "value": null,
+        "evidence": null,
+        "confidence": 0.0,
+        "issues": [
+          "missing_required"
+        ],
+        "final_value": null
+      },
+      "lead_phone": {
+        "value": "000 111",
+        "evidence": "Phone ............... 000 111",
+        "confidence": 0.3,
+        "issues": [
+          "invalid_phone"
+        ],
+        "final_value": null
+      },
+      "property_of_interest": {
+        "value": "Unit 7, 99 Madeup Road, Exampleton",
+        "evidence": "Property ............ Unit 7, 99 Madeup Road, Exampleton",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "budget_nzd": {
+        "value": "1200000",
+        "evidence": "Budget .............. 1.2m",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "move_timeframe": {
+        "value": "before Christmas 2026",
+        "evidence": "When are you buying . before Christmas 2026",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "preferred_contact": {
+        "value": null,
+        "evidence": null,
+        "confidence": 0.5,
+        "issues": [
+          "keyword_present_but_empty"
+        ],
+        "final_value": null
+      }
+    }
+  },
+  "LOAN-2026-0001": {
+    "doc_id": "LOAN-2026-0001",
+    "source_file": "data/raw/loan/loan_0001.pdf",
+    "schema_used": "schema_loan_application",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 11:48",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "applicant_first_name": {
+        "value": "Jane",
+        "evidence": "FIRST NAME Jane",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "applicant_last_name": {
+        "value": "Example",
+        "evidence": "LAST NAME Example",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "date_of_birth": {
+        "value": "1990-02-14",
+        "evidence": "14/02/1990",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "home_address": {
+        "value": "12 Nowhere Street, Exampleton",
+        "evidence": "12 Nowhere Street\nExampleton",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "employer_name": {
+        "value": "Example Widgets Ltd",
+        "evidence": "EMPLOYER’S NAME Example Widgets Ltd",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "annual_income": {
+        "value": "80000",
+        "evidence": "Your annual income $ 80,000",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "loan_purpose": {
+        "value": "Buy a first home",
+        "evidence": "Buy a first home",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "amount_to_borrow": {
+        "value": "400000",
+        "evidence": "What is the total amount you need to borrow? $ 400,000",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "settlement_date": {
+        "value": "2026-12-15",
+        "evidence": "15/12/2026",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "LOAN-2026-0002": {
+    "doc_id": "LOAN-2026-0002",
+    "source_file": "data/raw/loan/loan_0002.pdf",
+    "schema_used": "schema_loan_application",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 11:48",
+    "confidence_min": 0.5,
+    "error": null,
+    "fields": {
+      "applicant_first_name": {
+        "value": "John",
+        "evidence": "FIRST NAME John",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "applicant_last_name": {
+        "value": "Sample",
+        "evidence": "LAST NAME Sample",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "date_of_birth": {
+        "value": "1985-09-03",
+        "evidence": "What is your date of birth? 03/09/1985",
+        "confidence": 0.6,
+        "issues": [
+          "evidence_not_found"
+        ],
+        "final_value": null
+      },
+      "home_address": {
+        "value": "4 Placeholder Lane, Sampleville",
+        "evidence": "4 Placeholder Lane\nSampleville",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "employer_name": {
+        "value": null,
+        "evidence": null,
+        "confidence": 0.5,
+        "issues": [
+          "keyword_present_but_empty"
+        ],
+        "final_value": null
+      },
+      "annual_income": {
+        "value": null,
+        "evidence": null,
+        "confidence": 0.5,
+        "issues": [
+          "keyword_present_but_empty"
+        ],
+        "final_value": null
+      },
+      "loan_purpose": {
+        "value": "Refinance existing home loan",
+        "evidence": "Refinance existing home loan",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "amount_to_borrow": {
+        "value": "300000",
+        "evidence": "What is the total amount you need to borrow? $ 300,000",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "settlement_date": {
+        "value": null,
+        "evidence": null,
+        "confidence": 0.5,
+        "issues": [
+          "keyword_present_but_empty"
+        ],
+        "final_value": null
+      }
+    }
+  },
+  "LOAN-2026-0003": {
+    "doc_id": "LOAN-2026-0003",
+    "source_file": "data/raw/loan/loan_0003.pdf",
+    "schema_used": "schema_loan_application",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 11:48",
+    "confidence_min": 0.0,
+    "error": null,
+    "fields": {
+      "applicant_first_name": {
+        "value": "Pat",
+        "evidence": "FIRST NAME Pat",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "applicant_last_name": {
+        "value": "Placeholder",
+        "evidence": "LAST NAME Placeholder",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "date_of_birth": {
+        "value": "1978-03-01",
+        "evidence": "1st March 1978",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "home_address": {
+        "value": "Unit 7, 99 Madeup Road, Exampleton",
+        "evidence": "Unit 7, 99 Madeup Road\nExampleton",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "employer_name": {
+        "value": "The Example Bakery",
+        "evidence": "EMPLOYER’S NAME The Example Bakery",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "annual_income": {
+        "value": null,
+        "evidence": null,
+        "confidence": 0.5,
+        "issues": [
+          "keyword_present_but_empty"
+        ],
+        "final_value": null
+      },
+      "loan_purpose": {
+        "value": null,
+        "evidence": null,
+        "confidence": 0.5,
+        "issues": [
+          "keyword_present_but_empty"
+        ],
+        "final_value": null
+      },
+      "amount_to_borrow": {
+        "value": null,
+        "evidence": "$ 350-360k",
+        "confidence": 0.0,
+        "issues": [
+          "missing_required"
+        ],
+        "final_value": null
+      },
+      "settlement_date": {
+        "value": "2027-02-01",
+        "evidence": "01/02/27",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
   }
 }

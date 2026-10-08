@@ -49,3 +49,9 @@ GETS-2026-0047,tender_34865819.pdf,2026-10-09 08:22,extracted,2026-10-09 10:04,1
 GETS-2026-0048,tender_34708070.pdf,2026-10-09 08:22,processed,2026-10-09 11:25,0.5,schema_tender,2026-10-09,183
 GETS-2026-0049,tender_34939478.pdf,2026-10-09 08:22,extracted,2026-10-09 10:04,1.0,schema_tender,2026-10-09,102
 GETS-2026-0050,tender_35008398.pdf,2026-10-09 08:22,extracted,2026-10-09 10:04,1.0,schema_tender,2026-10-09,102
+LEAD-2026-0001,lead_0001.pdf,2026-10-09 11:44,extracted,2026-10-09 11:48,1.0,schema_realestate_lead,2026-10-09,4
+LEAD-2026-0002,lead_0002.pdf,2026-10-09 11:44,extracted,2026-10-09 11:48,1.0,schema_realestate_lead,2026-10-09,4
+LEAD-2026-0003,lead_0003.pdf,2026-10-09 11:44,needs_review,,0.0,schema_realestate_lead,2026-10-09,
+LOAN-2026-0001,loan_0001.pdf,2026-10-09 11:44,extracted,2026-10-09 11:48,1.0,schema_loan_application,2026-10-09,4
+LOAN-2026-0002,loan_0002.pdf,2026-10-09 11:44,needs_review,,0.5,schema_loan_application,2026-10-09,
+LOAN-2026-0003,loan_0003.pdf,2026-10-09 11:44,needs_review,,0.0,schema_loan_application,2026-10-09,
