@@ -68,7 +68,14 @@ the GETS agency code from the URL. `retrieved` and `sha256` are filled in once t
 
 ## Loan application form (real blank layout, fictional content)
 
-To be added at checkpoint H4.
+The blank form is First Credit Union's public home loan application (A4, April 2026), downloaded on
+2026-10-09 to `data/raw/loan/blank.pdf`:
+https://www.firstcreditunion.co.nz/assets/documents/pdf/Home-loan-app-A4-APRIL-2026.pdf
+
+`python -m src.make_fictional_loans` types three made-up applicants (Jane Example, John Sample,
+Pat Placeholder) onto copies of it and stamps every page as a fictional sample. The form's layout is
+the lender's; none of the people, addresses, employers or amounts are real. Neither the blank form nor
+the filled copies are committed.
 
 ## Real-estate enquiries (fictional, script-written)
 

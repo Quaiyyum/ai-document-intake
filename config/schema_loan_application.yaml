@@ -1,0 +1,58 @@
+schema_name: schema_loan_application
+doc_type: Home loan application form (New Zealand lender)
+doc_id_prefix: LOAN
+input_glob: data/raw/loan/loan_*.pdf
+review_threshold: 0.7
+max_chars: 12000
+system_prompt: >
+  You extract fields from the document type named below.
+  Return JSON only. Use null when a field is not in the document.
+  Never guess. For every value give a short verbatim quote as evidence.
+  The document is a printed form: most of the text is the form's own questions.
+  Only typed answers count as values. Details of a joint applicant or a solicitor are not the main applicant's.
+fields:
+  - name: applicant_first_name
+    type: string
+    required: true
+    description: The main applicant's first name, typed after "FIRST NAME" in section 1.
+    keywords: [first name]
+  - name: applicant_last_name
+    type: string
+    required: true
+    description: The main applicant's last name, typed after "LAST NAME" in section 1.
+    keywords: [last name]
+  - name: date_of_birth
+    type: date
+    required: true
+    description: The main applicant's date of birth.
+    keywords: [date of birth]
+  - name: home_address
+    type: string
+    required: true
+    description: The main applicant's current home address (street and town), as typed. Leave out the post code.
+    keywords: [current home address]
+  - name: employer_name
+    type: string
+    required: false
+    description: The name of the main applicant's employer, typed after "EMPLOYER'S NAME".
+    keywords: [employer]
+  - name: annual_income
+    type: number
+    required: false
+    description: The main applicant's own annual income before tax, in NZ dollars, as a plain number.
+    keywords: [annual income]
+  - name: loan_purpose
+    type: string
+    required: false
+    description: The purpose of the loan, as typed.
+    keywords: [purpose of this loan]
+  - name: amount_to_borrow
+    type: number
+    required: true
+    description: The total amount the applicant needs to borrow, in NZ dollars, as a plain number.
+    keywords: [need to borrow]
+  - name: settlement_date
+    type: date
+    required: false
+    description: The proposed settlement date.
+    keywords: [settlement date]
