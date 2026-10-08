@@ -1,9 +1,13 @@
 """PDF text extraction. No OCR: a file without a text layer goes to review."""
 from __future__ import annotations
 
+import logging
 from pathlib import Path
 
 import pdfplumber
+
+# pdfminer warns about fonts in browser-printed PDFs; the text still extracts correctly.
+logging.getLogger("pdfminer").setLevel(logging.ERROR)
 
 MIN_CHARS = 200
 

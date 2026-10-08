@@ -76,8 +76,8 @@ def good_answer(system, user):
 
 
 def shaky_answer(system, user):
-    # evidence that is not in the document -> 0.6 -> below the 0.7 threshold
-    return {"fields": {"colour": {"value": "green", "evidence": "the walls were painted green"},
+    # neither the value nor the evidence is in the document -> 0.6 -> below the 0.7 threshold
+    return {"fields": {"colour": {"value": "olive", "evidence": "the walls were painted olive"},
                        "due": {"value": "7 October 2026", "evidence": "due on 7 October 2026"}}}
 
 
@@ -149,7 +149,10 @@ def test_confidence_rules():
     optional_seen = FieldSpec(name="b", type="string", description="x", keywords=["colour"])
     optional_unseen = FieldSpec(name="c", type="string", description="x", keywords=["deadline"])
     assert score_field(required, "green", [], "the chosen  COLOUR is green", text) == 1.0
-    assert score_field(required, "green", [], "painted green", text) == 0.6
+    assert score_field(required, "blue", [], "painted blue", text) == 0.6
+    assert score_field(required, "green", [], "painted green", text) == 1.0  # the value itself is in the text
+    assert score_field(required, "green; nothing", [], "the chosen colour is green; nothing else is said", text) == 1.0
+    assert score_field(required, "green; purple", [], "green; purple", text) == 0.6  # every part must be present
     assert score_field(required, "green", ["regex_mismatch"], "The chosen colour is green", text) == 0.3
     assert score_field(required, None, ["missing_required"], None, text) == 0.0
     assert score_field(optional_unseen, None, [], None, text) == 1.0
@@ -179,7 +182,7 @@ def test_review_apply_marks_processed_and_keeps_model_value(workdir, monkeypatch
     assert done == [rows[0]["doc_id"]]
     assert store.status_counts() == {"needs_review": 1, "processed": 1}
     item = load_records()[done[0]]["fields"]["colour"]
-    assert (item["value"], item["final_value"]) == ("green", "teal")
+    assert (item["value"], item["final_value"]) == ("olive", "teal")
     review.build()  # a rebuild keeps the reviewer's columns
     assert review.load_queue()[0]["reviewer_action"] == "correct"
     assert review.apply() == []  # and applying twice does nothing
@@ -233,7 +236,7 @@ def test_accuracy_report_is_deterministic(workdir, monkeypatch):
     extract.run("config/schema_toy.yaml")
     Path("gold").mkdir()
     Path("gold/labels_toy.csv").write_text(
-        "doc_id,colour,due\nTOY-2026-0001,green,2026-10-07\nTOY-2026-0002,blue,\n".replace("2026-0", f"{load_year()}-0", 2))
+        "doc_id,colour,due\nTOY-2026-0001,olive,2026-10-07\nTOY-2026-0002,blue,\n".replace("2026-0", f"{load_year()}-0", 2))
     evaluate.main(["--schema", "config/schema_toy.yaml"])
     first = Path("output/accuracy_report_toy.md").read_text()
     evaluate.main(["--schema", "config/schema_toy.yaml"])

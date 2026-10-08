@@ -48,8 +48,18 @@ def score_field(spec: FieldSpec, value, issues: list[str], evidence, text: str) 
         return 0.5 if mentioned else 1.0
     if issues:
         return 0.3
-    quote = squash(evidence).strip("\"'")
-    return 1.0 if quote and quote in haystack else 0.6
+    return 1.0 if grounded(evidence, haystack) or grounded(value, haystack) else 0.6
+
+
+def grounded(quote, haystack: str) -> bool:
+    """True when the quote is in the document word for word.
+
+    A list value is often written on separate lines in the document and joined with ";" in the
+    answer, so each ";"-separated part is checked on its own and all of them must be present.
+    """
+    parts = [squash(part).strip("\"'") for part in str(quote or "").split(";")]
+    parts = [part for part in parts if part]
+    return bool(parts) and all(part in haystack for part in parts)
 
 
 def _empty_fields(schema: Schema, issue: str) -> dict:
