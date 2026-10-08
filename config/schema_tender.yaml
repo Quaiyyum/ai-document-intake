@@ -43,5 +43,5 @@ fields:
   - name: contact_name
     type: string
     required: false
-    description: The contact name printed after "Contact" (a person or a team). No job title, email or phone.
+    description: The contact name printed after "Contact" (a person or a team). No job title, email or phone. Null if that line is an instruction rather than a name.
     keywords: [contact, enquiries]
