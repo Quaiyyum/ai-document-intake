@@ -1,0 +1,47 @@
+schema_name: schema_realestate_lead
+doc_type: Real-estate buyer enquiry email
+doc_id_prefix: LEAD
+input_glob: data/raw/lead/*.pdf
+review_threshold: 0.7
+max_chars: 6000
+system_prompt: >
+  You extract fields from the document type named below.
+  Return JSON only. Use null when a field is not in the document.
+  Never guess. For every value give a short verbatim quote as evidence.
+fields:
+  - name: lead_name
+    type: string
+    required: true
+    description: The full name of the person making the enquiry.
+    keywords: [from, name, regards]
+  - name: lead_email
+    type: email
+    required: true
+    description: The enquirer's email address.
+    keywords: ["@", email]
+  - name: lead_phone
+    type: phone
+    required: false
+    description: The enquirer's phone number, as written.
+    keywords: [phone, mobile, call me]
+  - name: property_of_interest
+    type: string
+    required: true
+    description: The street address of the property the enquiry is about, as written.
+    keywords: [property, listing, street]
+  - name: budget_nzd
+    type: number
+    required: false
+    description: The buyer's stated maximum budget in NZ dollars, as a plain number.
+    keywords: [budget, up to, "$"]
+  - name: move_timeframe
+    type: string
+    required: false
+    description: When the buyer wants to buy or move, in their own words.
+    keywords: [timeframe, by, within, months]
+  - name: preferred_contact
+    type: enum
+    required: false
+    description: How the buyer prefers to be contacted.
+    enum_values: [email, phone, text]
+    keywords: [prefer, best way, contact me]

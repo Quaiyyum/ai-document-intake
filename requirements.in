@@ -1,0 +1,10 @@
+pdfplumber
+pyyaml
+pydantic>=2
+python-dotenv
+python-dateutil
+requests
+matplotlib
+pypdf
+reportlab
+pytest
