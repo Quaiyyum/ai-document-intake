@@ -1,0 +1,3028 @@
+{
+  "GETS-2026-0001": {
+    "doc_id": "GETS-2026-0001",
+    "source_file": "data/raw/tender/tender_35030310.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:02",
+    "confidence_min": 0.5,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "New Zealand Transport Agency (Waka Kotahi) - HISTORIC",
+        "evidence": "GETS > New Zealand Transport Agency (Waka Kotahi) - HISTORIC",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "13397 - SH1S Hawkswood Culvert - Lining PW",
+        "evidence": "Tender Name : 13397 - SH1S Hawkswood Culvert - Lining PW",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "35030310",
+        "evidence": "Create account RFx ID : 35030310",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2026-10-29",
+        "evidence": "Close Date : Thursday, 29 October 2026 4:00 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "72141000 - Highway and road construction services",
+        "evidence": "Categories : 72141000 - Highway and road construction services",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "Canterbury",
+        "evidence": "Regions: Canterbury",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": null,
+        "evidence": "Contact : Procurement Coordinator",
+        "confidence": 0.5,
+        "issues": [
+          "keyword_present_but_empty"
+        ],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0002": {
+    "doc_id": "GETS-2026-0002",
+    "source_file": "data/raw/tender/tender_35111110.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:02",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "New Zealand Transport Agency (Waka Kotahi) - HISTORIC",
+        "evidence": "GETS > New Zealand Transport Agency (Waka Kotahi) - HISTORIC",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "14247 SH3 Ashhurst Shared Use Path",
+        "evidence": "Tender Name : 14247 SH3 Ashhurst Shared Use Path",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "35111110",
+        "evidence": "Create account RFx ID : 35111110",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2026-11-12",
+        "evidence": "Close Date : Thursday, 12 November 2026 3:00 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "72141000 - Highway and road construction services",
+        "evidence": "Categories : 72141000 - Highway and road construction services",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "Manawatu-Wanganui",
+        "evidence": "Regions: Manawatu-Wanganui",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": "Ashley Lamont",
+        "evidence": "Contact : Ashley Lamont",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0003": {
+    "doc_id": "GETS-2026-0003",
+    "source_file": "data/raw/tender/tender_34870463.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 09:58",
+    "confidence_min": 0.5,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "New Zealand Transport Agency (Waka Kotahi) - HISTORIC",
+        "evidence": "GETS > New Zealand Transport Agency (Waka Kotahi) - HISTORIC >",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "14363 - SH6 Cromwell to Kingston Resilience - PW",
+        "evidence": "Tender Name : 14363 - SH6 Cromwell to Kingston Resilience - PW",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "34870463",
+        "evidence": "Create account RFx ID : 34870463",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2026-10-20",
+        "evidence": "Close Date : Tuesday, 20 October 2026 4:00 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "72141000 - Highway and road construction services",
+        "evidence": "Categories : 72141000 - Highway and road construction services",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "Otago",
+        "evidence": "Regions: Otago",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": null,
+        "evidence": "Contact : Procurement Coordinator",
+        "confidence": 0.5,
+        "issues": [
+          "keyword_present_but_empty"
+        ],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0004": {
+    "doc_id": "GETS-2026-0004",
+    "source_file": "data/raw/tender/tender_35035327.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 09:58",
+    "confidence_min": 0.5,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "Ministry of Education - School Infrastructure",
+        "evidence": "GETS > Ministry of Education - School Infrastructure",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "(1906) Pukenui School (Te Kuiti) #244013 Block: A: Toilet Upgrade; Blocks D,E: DQLS Upgrade",
+        "evidence": "Tender Name : (1906) Pukenui School (Te Kuiti) #244013 Block: A: Toilet Upgrade; Blocks D,E: DQLS Upgrade",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "35035327",
+        "evidence": "RFx ID : 35035327",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2026-10-28",
+        "evidence": "Close Date : Wednesday, 28 October 2026 5:00 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "72000000 - Building and Facility Construction and Maintenance Services",
+        "evidence": "Pre-qualification Categories : 72000000 - Building and Facility Construction and Maintenance Services",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "Waikato",
+        "evidence": "Regions: Waikato",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": null,
+        "evidence": "Contact : All enquiries to be made through GETs",
+        "confidence": 0.5,
+        "issues": [
+          "keyword_present_but_empty"
+        ],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0005": {
+    "doc_id": "GETS-2026-0005",
+    "source_file": "data/raw/tender/tender_34960103.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:02",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "KiwiRail Group",
+        "evidence": "GETS > KiwiRail Group > 2026/024 KiwiRail Heavy & Industrial MHE RFP",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "2026/024 KiwiRail Heavy & Industrial MHE RFP",
+        "evidence": "Tender Name : 2026/024 KiwiRail Heavy & Industrial MHE RFP",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "34960103",
+        "evidence": "RFx ID : 34960103",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2026-10-30",
+        "evidence": "Close Date : Friday, 30 October 2026 5:00 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "24100000 - Material handling machinery and equipment",
+        "evidence": "Categories: 24100000 - Material handling machinery and equipment",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "New Zealand",
+        "evidence": "Regions: New Zealand",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": "Krizette Ngo Sy",
+        "evidence": "Contact : Krizette Ngo Sy",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0006": {
+    "doc_id": "GETS-2026-0006",
+    "source_file": "data/raw/tender/tender_35092357.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:02",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "Otago Regional Council",
+        "evidence": "GETS > Otago Regional Council",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "2026-11193 - Mechanical Drain Cleaning (Three Packages)",
+        "evidence": "Tender Name : 2026-11193 - Mechanical Drain Cleaning (Three Packages)",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "35092357",
+        "evidence": "RFx ID : 35092357",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2026-11-03",
+        "evidence": "Close Date : Tuesday, 3 November 2026 4:00 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "70000000 - Farming and Fishing and Forestry and Wildlife Contracting Services; 77000000 - Environmental Services; 83000000 - Public Utilities and Public Sector Related Services; 93000000 - Politics and Civic Affairs Services",
+        "evidence": "Categories : 70000000 - Farming and Fishing and Forestry and Wildlife Contracting Services; 77000000 - Environmental Services; 83000000 - Public Utilities and Public Sector Related Services; 93000000 - Politics and Civic Affairs Services",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "Otago",
+        "evidence": "Regions: Otago",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": "Jack Kissell",
+        "evidence": "Contact : Jack Kissell",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0007": {
+    "doc_id": "GETS-2026-0007",
+    "source_file": "data/raw/tender/tender_34962605.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:02",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "Ministry for Primary Industries",
+        "evidence": "GETS > Ministry for Primary Industries > 2026 Innovation Investment Round - Round 2",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "2026 Innovation Investment Round - Round 2",
+        "evidence": "Tender Name : 2026 Innovation Investment Round - Round 2",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "34962605",
+        "evidence": "RFx ID : 34962605",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2026-11-18",
+        "evidence": "Close Date : Wednesday, 18 November 2026 2:00 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "21100000 - Agricultural and forestry and landscape machinery and equipment",
+        "evidence": "Categories : 21100000 - Agricultural and forestry and landscape machinery and equipment",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "International",
+        "evidence": "Regions: International",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": "Tania Brown",
+        "evidence": "Contact : Tania Brown",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0008": {
+    "doc_id": "GETS-2026-0008",
+    "source_file": "data/raw/tender/tender_32705858.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:02",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "Ministry of Social Development",
+        "evidence": "GETS > Ministry of Social Development",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "25.119.01 - Online job advertising services - open supplier panel",
+        "evidence": "Tender Name : 25.119.01 - Online job advertising services - open supplier panel",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "32705858",
+        "evidence": "RFx ID : 32705858",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2029-12-31",
+        "evidence": "Close Date : Monday, 31 December 2029 5:00 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "80000000 - Management and Business Professionals and Administrative Services; 81110000 - Computer services; 82100000 - Advertising",
+        "evidence": "Categories : 80000000 - Management and Business Professionals and Administrative Services; 81110000 - Computer services; 82100000 - Advertising",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "New Zealand",
+        "evidence": "Regions: New Zealand",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": "Ha Bui",
+        "evidence": "Contact : Ha Bui",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0009": {
+    "doc_id": "GETS-2026-0009",
+    "source_file": "data/raw/tender/tender_34911428.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:02",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "New Plymouth District Council",
+        "evidence": "GETS > New Plymouth District Council",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "25/26-212 Te Pae o te Rangi Coastal Walkway Stage 2 (Waenga) & 3 (Runga)",
+        "evidence": "Tender Name : 25/26-212 Te Pae o te Rangi Coastal Walkway Stage 2 (Waenga) & 3 (Runga)",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "34911428",
+        "evidence": "RFx ID : 34911428",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2026-10-12",
+        "evidence": "Close Date : Monday, 12 October 2026 12:00 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "30000000 - Structures and Building and Construction and Manufacturing Components and Supplies; 72120000 - Nonresidential building construction services; 72140000 - Heavy construction services",
+        "evidence": "Categories : 30000000 - Structures and Building and Construction and Manufacturing Components and Supplies; 72120000 - Nonresidential building construction services; 72140000 - Heavy construction services",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "Taranaki",
+        "evidence": "Regions: Taranaki",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": "NPDC Procurement Admin",
+        "evidence": "Contact : NPDC Procurement Admin",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0010": {
+    "doc_id": "GETS-2026-0010",
+    "source_file": "data/raw/tender/tender_34921850.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:02",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "New Plymouth District Council",
+        "evidence": "GETS > New Plymouth District Council",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "27-023 Patterson Road Civil Construction Extension Project",
+        "evidence": "Tender Name : 27-023 Patterson Road Civil Construction Extension Project",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "34921850",
+        "evidence": "RFx ID : 34921850",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2026-10-14",
+        "evidence": "Close Date : Wednesday, 14 October 2026 12:00 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "22000000 - Building and Construction Machinery and Accessories; 24000000 - Material Handling and Conditioning and Storage Machinery and their Accessories and Supplies; 30000000 - Structures and Building and Construction and Manufacturing Components and Supplies; 31000000 - Manufacturing Components and Supplies; 72000000 - Building and Facility Construction and Maintenance Services; 77000000 - Environmental Services; 81000000 - Engineering and Research and Technology Based Services; 83000000 - Public Utilities and Public Sector Related Services; 91000000 - Personal and Domestic Services; 95000000 - Land and Buildings and Structures and Thoroughfares",
+        "evidence": "Categories : 22000000 - Building and Construction Machinery and Accessories",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "Taranaki",
+        "evidence": "Regions: Taranaki",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": "NPDC Procurement Admin",
+        "evidence": "Contact : NPDC Procurement Admin",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0011": {
+    "doc_id": "GETS-2026-0011",
+    "source_file": "data/raw/tender/tender_34891545.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 09:58",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "University of Waikato",
+        "evidence": "GETS > University of Waikato",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "319604 - Provision of Simulated Participants for Clinical Education and Assessment",
+        "evidence": "Tender Name : 319604 - Provision of Simulated Participants for Clinical Education and Assessment",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "34891545",
+        "evidence": "RFx ID : 34891545",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2026-10-16",
+        "evidence": "Close Date : Friday, 16 October 2026 5:00 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "86101700 - Non scientific vocational training services; 86130000 - Specialized educational services",
+        "evidence": "86101700 - Non scientific vocational training services; 86130000 - Specialized educational services",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "Waikato",
+        "evidence": "Regions: Waikato",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": "Procurement",
+        "evidence": "Contact : Procurement",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0012": {
+    "doc_id": "GETS-2026-0012",
+    "source_file": "data/raw/tender/tender_35090813.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:02",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "University of Waikato",
+        "evidence": "GETS > University of Waikato",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "323443 - Proposed UniRec New Build Project",
+        "evidence": "Tender Name : 323443 - Proposed UniRec New Build Project",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "35090813",
+        "evidence": "RFx ID : 35090813",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2026-11-02",
+        "evidence": "Close Date : Monday, 2 November 2026 5:00 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "72121400 - Specialized public building construction services",
+        "evidence": "Categories : 72121400 - Specialized public building construction services",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "Waikato",
+        "evidence": "Regions: Waikato",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": "Procurement",
+        "evidence": "Contact : Procurement",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0013": {
+    "doc_id": "GETS-2026-0013",
+    "source_file": "data/raw/tender/tender_35068879.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:02",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "University of Waikato",
+        "evidence": "GETS > University of Waikato",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "327799 - Solar Installation Stage 2",
+        "evidence": "Tender Name : 327799 - Solar Installation Stage 2",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "35068879",
+        "evidence": "RFx ID : 35068879",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2026-10-30",
+        "evidence": "Close Date : Friday, 30 October 2026 5:00 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "72151500 - Electrical system services",
+        "evidence": "Categories : 72151500 - Electrical system services",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "Bay of Plenty; Waikato",
+        "evidence": "Regions: Bay of Plenty\nWaikato",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": "Procurement",
+        "evidence": "Contact : Procurement",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0014": {
+    "doc_id": "GETS-2026-0014",
+    "source_file": "data/raw/tender/tender_34761285.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:02",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "Auckland Transport",
+        "evidence": "GETS > Auckland Transport > 705-26-880-BT PT Planning and Scheduling Solution",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "705-26-880-BT PT Planning and Scheduling Solution",
+        "evidence": "Tender Name : 705-26-880-BT PT Planning and Scheduling Solution",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "34761285",
+        "evidence": "RFx ID : 34761285",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2026-10-12",
+        "evidence": "Close Date : Monday, 12 October 2026 10:00 AM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "25170000 - Transportation components and systems; 25190000 - Transportation services equipment; 41110000 - Measuring and observing and testing instruments; 43000000 - Information Technology Broadcasting and Telecommunications; 78140000 - Transport services; 78180000 - Transportation repair or maintenance services",
+        "evidence": "Categories : 25170000 - Transportation components and systems; 25190000 - Transportation services equipment; 41110000 - Measuring and observing and testing instruments; 43000000 - Information Technology Broadcasting and Telecommunications; 78140000 - Transport services; 78180000 - Transportation repair or maintenance services",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "New Zealand",
+        "evidence": "Regions: New Zealand",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": "Stella Buckland and Opal Manuel",
+        "evidence": "Contact : Stella Buckland and Opal Manuel",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0015": {
+    "doc_id": "GETS-2026-0015",
+    "source_file": "data/raw/tender/tender_34842108.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:02",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "Auckland Transport",
+        "evidence": "GETS > Auckland Transport",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "746-27-032-AC - Devonport Wharf - Ferry Terminal Renewal Works",
+        "evidence": "Tender Name : 746-27-032-AC - Devonport Wharf - Ferry Terminal Renewal Works",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "34842108",
+        "evidence": "RFx ID : 34842108",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2026-10-23",
+        "evidence": "Close Date : Friday, 23 October 2026 10:00 AM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "72000000 - Building and Facility Construction and Maintenance Services",
+        "evidence": "Categories : 72000000 - Building and Facility Construction and Maintenance Services",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "Auckland",
+        "evidence": "Regions: Auckland",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": "Roberto Chavez",
+        "evidence": "Contact : Roberto Chavez",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0016": {
+    "doc_id": "GETS-2026-0016",
+    "source_file": "data/raw/tender/tender_34924335.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:02",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "New Zealand Institute of Skills & Technology",
+        "evidence": "GETS > New Zealand Institute of Skills & Technology > A & B Auto-Door Replacement",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "A & B Auto-Door Replacement",
+        "evidence": "Tender Name : A & B Auto-Door Replacement",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "34924335",
+        "evidence": "RFx ID : 34924335",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2026-10-15",
+        "evidence": "Close Date : Thursday, 15 October 2026 5:00 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "72121100 - Commercial and office building construction services; 95121900 - Educational and research buildings and structures",
+        "evidence": "Categories : 72121100 - Commercial and office building construction services\n95121900 - Educational and research buildings and structures",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "Taranaki",
+        "evidence": "Regions: Taranaki",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": "Stefan Pirie",
+        "evidence": "Contact : Stefan Pirie",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0017": {
+    "doc_id": "GETS-2026-0017",
+    "source_file": "data/raw/tender/tender_34924423.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:02",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "New Zealand Institute of Skills & Technology",
+        "evidence": "GETS > New Zealand Institute of Skills & Technology",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "A-block Level 3 Science Lab Fitout",
+        "evidence": "Tender Name : A-block Level 3 Science Lab Fitout",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "34924423",
+        "evidence": "RFx ID : 34924423",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2026-10-15",
+        "evidence": "Close Date : Thursday, 15 October 2026 5:00 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "72121100 - Commercial and office building construction services; 95121900 - Educational and research buildings and structures",
+        "evidence": "Categories : 72121100 - Commercial and office building construction services; 95121900 - Educational and research buildings and structures",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "Taranaki",
+        "evidence": "Regions: Taranaki",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": "Stefan Pirie",
+        "evidence": "Contact : Stefan Pirie",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0018": {
+    "doc_id": "GETS-2026-0018",
+    "source_file": "data/raw/tender/tender_23700412.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:02",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "Department of Internal Affairs",
+        "evidence": "GETS > Department of Internal Affairs",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "Standing Invitation to Apply for Payroll and ERP Services",
+        "evidence": "Tender Name : Standing Invitation to Apply for Payroll and ERP Services",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "23700412",
+        "evidence": "RFx ID : 23700412",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2026-11-30",
+        "evidence": "Close Date : Monday, 30 November 2026 5:00 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "43230000 - Software; 80000000 - Management and Business Professionals and Administrative Services",
+        "evidence": "Categories : 43230000 - Software\n80000000 - Management and Business Professionals and Administrative Services",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "International",
+        "evidence": "Regions: International",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": "Marketplace Team",
+        "evidence": "Contact : Marketplace Team",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0019": {
+    "doc_id": "GETS-2026-0019",
+    "source_file": "data/raw/tender/tender_33732411.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:02",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "Department of Internal Affairs",
+        "evidence": "GETS > Department of Internal Affairs",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "NZ Government Marketplace - Standing Open Invitation to Apply",
+        "evidence": "Tender Name : NZ Government Marketplace - Standing Open Invitation to Apply",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "33732411",
+        "evidence": "RFx ID : 33732411",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2029-05-25",
+        "evidence": "Close Date : Friday, 25 May 2029 5:00 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "43000000 - Information Technology Broadcasting and Telecommunications; 81110000 - Computer services; 81160000 - Information Technology Service Delivery",
+        "evidence": "Categories : 43000000 - Information Technology Broadcasting and Telecommunications; 81110000 - Computer services; 81160000 - Information Technology Service Delivery",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "International",
+        "evidence": "Regions: International",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": "Marketplace Team",
+        "evidence": "Contact : Marketplace Team",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0020": {
+    "doc_id": "GETS-2026-0020",
+    "source_file": "data/raw/tender/tender_32504269.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:02",
+    "confidence_min": 0.5,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "Ministry of Education - School Infrastructure",
+        "evidence": "GETS > Ministry of Education - School Infrastructure",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "Accredited List of Suppliers - Asbestos-related Services (Ongoing)",
+        "evidence": "Tender Name : Accredited List of Suppliers - Asbestos-related Services (Ongoing)",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "32504269",
+        "evidence": "RFx ID : 32504269",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2026-10-30",
+        "evidence": "Close Date : Friday, 30 October 2026 5:00 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "41000000 - Laboratory and Measuring and Observing and Testing Equipment; 72000000 - Building and Facility Construction and Maintenance Services; 76000000 - Industrial Cleaning Services; 77100000 - Environmental management; 77111500 - Environmental safety services; 85121800 - Medical laboratories",
+        "evidence": "Categories : 41000000 - Laboratory and Measuring and Observing and Testing Equipment; 72000000 - Building and Facility Construction and Maintenance Services; 76000000 - Industrial Cleaning Services; 77100000 - Environmental management; 77111500 - Environmental safety services; 85121800 - Medical laboratories",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "New Zealand",
+        "evidence": "Regions: New Zealand",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": null,
+        "evidence": "Contact : PLEASE DO NOT SUBMIT ELECRONIC RESPONSES FOR THIS ITQ IN GETS",
+        "confidence": 0.5,
+        "issues": [
+          "keyword_present_but_empty"
+        ],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0021": {
+    "doc_id": "GETS-2026-0021",
+    "source_file": "data/raw/tender/tender_31377530.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:02",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "Waimate District Council",
+        "evidence": "GETS > Waimate District Council",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "ROI- WDC 3 Waters Construction Supplier Panel 2025-2027",
+        "evidence": "Tender Name : ROI- WDC 3 Waters Construction Supplier Panel 2025-2027",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "31377530",
+        "evidence": "RFx ID : 31377530",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2027-03-31",
+        "evidence": "Close Date : Wednesday, 31 March 2027 4:30 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "83000000 - Public Utilities and Public Sector Related Services",
+        "evidence": "Categories : 83000000 - Public Utilities and Public Sector Related Services",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "Canterbury; Otago",
+        "evidence": "Regions: Canterbury\nOtago",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": "Stacey Bennett",
+        "evidence": "Contact : Stacey Bennett",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0022": {
+    "doc_id": "GETS-2026-0022",
+    "source_file": "data/raw/tender/tender_29898765.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:03",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "Energy Efficiency & Conservation Authority",
+        "evidence": "GETS > Energy Efficiency & Conservation Authority > Low Emissions Heavy Vehicle Fund",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "Low Emissions Heavy Vehicle Fund",
+        "evidence": "Tender Name : Low Emissions Heavy Vehicle Fund",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "29898765",
+        "evidence": "RFx ID : 29898765",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2028-05-30",
+        "evidence": "Close Date : Tuesday, 30 May 2028 12:00 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "10000000 - Live Plant and Animal Material and Accessories and Supplies; 11000000 - Mineral and Textile and Inedible Plant and Animal Materials; 12000000 - Chemicals including Bio Chemicals and Gas Materials; 15000000 - Fuels and Fuel Additives and Lubricants and Anti corrosive Materials; 20000000 - Mining and Well Drilling Machinery and Accessories; 21000000 - Farming and Fishing and Forestry and Wildlife Machinery and Accessories; 22000000 - Building and Construction Machinery and Accessories; 23000000 - Industrial Manufacturing and Processing Machinery and Accessories; 24000000 - Material Handling and Conditioning and Storage Machinery and their Accessories and Supplies; 25000000 - Commercial and Military and Private Vehicles and their Accessories and Components; 26000000 - Power Generation and Distribution Machinery and Accessories; 30110000 - Concrete and cement and plaster; 30120000 - Roads and landscape; 30250000 - Underground mining structures and materials; 32000000 - Electronic Components and Supplies; 39000000 - Electrical Systems and Lighting and Components and Accessories and Supplies; 49000000 - Sports and Recreational Equipment and Supplies and Accessories; 70000000 - Farming and Fishing and Forestry and Wildlife Contracting Services; 71000000 - Mining and oil and gas services; 72140000 - Heavy construction services; 72150000 - Specialized trade construction and maintenance services; 77000000 - Environmental Services; 78000000 - Transportation and Storage and Mail Services; 83000000 - Public Utilities and Public Sector Related Services; 95000000 - Land and Buildings and Structures and Thoroughfares",
+        "evidence": "Categories : 10000000 - Live Plant and Animal Material and Accessories and Supplies",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "Auckland; Bay of Plenty; Canterbury; Chatham Islands; Gisborne; Hawke's Bay; Manawatu-Wanganui; Marlborough; Nelson; Northland; Otago; Southland; Taranaki; Tasman; Waikato; Wellington; West Coast",
+        "evidence": "Regions: Auckland",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": "Chris Bolton",
+        "evidence": "Contact : Chris Bolton",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0023": {
+    "doc_id": "GETS-2026-0023",
+    "source_file": "data/raw/tender/tender_31232412.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:03",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "Energy Efficiency & Conservation Authority",
+        "evidence": "GETS > Energy Efficiency & Conservation Authority",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "Service Provider List - energy-related services",
+        "evidence": "Tender Name : Service Provider List - energy-related services",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "31232412",
+        "evidence": "RFx ID : 31232412",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2028-05-30",
+        "evidence": "Close Date : Tuesday, 30 May 2028 5:00 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "12000000 - Chemicals including Bio Chemicals and Gas Materials; 15000000 - Fuels and Fuel Additives and Lubricants and Anti corrosive Materials; 26000000 - Power Generation and Distribution Machinery and Accessories; 30000000 - Structures and Building and Construction and Manufacturing Components and Supplies; 31000000 - Manufacturing Components and Supplies; 32000000 - Electronic Components and Supplies; 39000000 - Electrical Systems and Lighting and Components and Accessories and Supplies; 40000000 - Distribution and Conditioning Systems and Equipment and Components; 52000000 - Domestic Appliances and Supplies and Consumer Electronic Products; 71000000 - Mining and oil and gas services; 72000000 - Building and Facility Construction and Maintenance Services; 73000000 - Industrial Production and Manufacturing Services; 77000000 - Environmental Services; 78000000 - Transportation and Storage and Mail Services; 81000000 - Engineering and Research and Technology Based Services; 83000000 - Public Utilities and Public Sector Related Services; 93000000 - Politics and Civic Affairs Services; 95000000 - Land and Buildings and Structures and Thoroughfares",
+        "evidence": "Categories : 12000000 - Chemicals including Bio Chemicals and Gas Materials",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "New Zealand",
+        "evidence": "Regions: New Zealand",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": "Jo Parag",
+        "evidence": "Contact : Jo Parag",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0024": {
+    "doc_id": "GETS-2026-0024",
+    "source_file": "data/raw/tender/tender_35147829.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:03",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "Health New Zealand (Te Whatu Ora)",
+        "evidence": "GETS > Health New Zealand (Te Whatu Ora) > Community Glaucoma Follow-up Services",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "Community Glaucoma Follow-up Services",
+        "evidence": "Tender Name : Community Glaucoma Follow-up Services",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "35147829",
+        "evidence": "RFx ID : 35147829",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2026-10-15",
+        "evidence": "Close Date : Thursday, 15 October 2026 5:00 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "85000000 - Healthcare Services",
+        "evidence": "Categories : 85000000 - Healthcare Services",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "Auckland; Northland",
+        "evidence": "Regions: Auckland\nNorthland",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": "Urvashi jaisal",
+        "evidence": "Contact : Urvashi jaisal",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0025": {
+    "doc_id": "GETS-2026-0025",
+    "source_file": "data/raw/tender/tender_34645793.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:03",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "Waikato District Council",
+        "evidence": "GETS > Waikato District Council",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "Strengthening of Tahuna Road Bridges",
+        "evidence": "Tender Name : Strengthening of Tahuna Road Bridges",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "34645793",
+        "evidence": "RFx ID : 34645793",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2026-10-16",
+        "evidence": "Close Date : Friday, 16 October 2026 5:00 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "30000000 - Structures and Building and Construction and Manufacturing Components and Supplies",
+        "evidence": "30000000 - Structures and Building and Construction and Manufacturing Components and Supplies",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "Waikato",
+        "evidence": "Regions: Waikato",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": "Karen Boyt",
+        "evidence": "Contact : Karen Boyt",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0026": {
+    "doc_id": "GETS-2026-0026",
+    "source_file": "data/raw/tender/tender_35116860.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:03",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "Ministry of Education",
+        "evidence": "GETS > Ministry of Education > Pacific Homework and Tutoring Initiative",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "Pacific Homework and Tutoring Initiative",
+        "evidence": "Tender Name : Pacific Homework and Tutoring Initiative",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "35116860",
+        "evidence": "RFx ID : 35116860",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2026-10-16",
+        "evidence": "Close Date : Friday, 16 October 2026 5:00 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "86000000 - Education and Training Services",
+        "evidence": "Categories : 86000000 - Education and Training Services",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "Auckland",
+        "evidence": "Regions: Auckland",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": "Jacky Doonan",
+        "evidence": "Contact : Jacky Doonan",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0027": {
+    "doc_id": "GETS-2026-0027",
+    "source_file": "data/raw/tender/tender_35098594.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:03",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "Health New Zealand (Te Whatu Ora)",
+        "evidence": "GETS > Health New Zealand (Te Whatu Ora) >",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "Project Pihi Kaha - Ealy Works 2 Whangārei Hospital Redevelopment - Construction Services Advance Notice",
+        "evidence": "Tender Name : Project Pihi Kaha - Ealy Works 2 Whangārei Hospital Redevelopment - Construction Services Advance Notice",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "35098594",
+        "evidence": "RFx ID : 35098594",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2026-10-19",
+        "evidence": "Close Date : Monday, 19 October 2026 5:00 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "30102800 - Piling",
+        "evidence": "Categories : 30102800 - Piling",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "New Zealand",
+        "evidence": "Regions: New Zealand",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": "Dale Dunkerley",
+        "evidence": "Contact : Dale Dunkerley",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0028": {
+    "doc_id": "GETS-2026-0028",
+    "source_file": "data/raw/tender/tender_34992673.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:03",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "Thames-Coromandel District Council",
+        "evidence": "GETS > Thames-Coromandel District Council",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "TCDC Storm Recovery Works - Suppliers Register/ Invitation to Qualify",
+        "evidence": "Tender Name : TCDC Storm Recovery Works - Suppliers Register/ Invitation to Qualify",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "34992673",
+        "evidence": "RFx ID : 34992673",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2026-10-20",
+        "evidence": "Close Date : Tuesday, 20 October 2026 5:00 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "72141000 - Highway and road construction services",
+        "evidence": "Categories : 72141000 - Highway and road construction services",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "Auckland; Bay of Plenty; Waikato",
+        "evidence": "Regions: Auckland Bay of Plenty Waikato",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": "Vikas Kumar",
+        "evidence": "Contact : Vikas Kumar",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0029": {
+    "doc_id": "GETS-2026-0029",
+    "source_file": "data/raw/tender/tender_35010726.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:03",
+    "confidence_min": 0.5,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "Tasman District Council",
+        "evidence": "GETS > Tasman District Council",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "C1723 Road Maintenance Services - Advance Notice",
+        "evidence": "Tender Name : C1723 Road Maintenance Services - Advance Notice",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "35010726",
+        "evidence": "RFx ID : 35010726",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2026-10-21",
+        "evidence": "Close Date : Wednesday, 21 October 2026 12:00 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": null,
+        "evidence": "Categories : The United Nations Standard Products and Services Code (UNSPSC)",
+        "confidence": 0.5,
+        "issues": [
+          "keyword_present_but_empty"
+        ],
+        "final_value": null
+      },
+      "region": {
+        "value": "New Zealand",
+        "evidence": "Regions: New Zealand",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": null,
+        "evidence": "Contact : Procurement and Contracts Co-ordinator",
+        "confidence": 0.5,
+        "issues": [
+          "keyword_present_but_empty"
+        ],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0030": {
+    "doc_id": "GETS-2026-0030",
+    "source_file": "data/raw/tender/tender_35045167.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:03",
+    "confidence_min": 0.5,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "Waimakariri District Council",
+        "evidence": "GETS > Waimakariri District Council",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "Contract 26/66 - Stormwater Treatment Devices Servicing - Advertising Notice",
+        "evidence": "Tender Name : Contract 26/66 - Stormwater Treatment Devices Servicing - Advertising Notice",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "35045167",
+        "evidence": "ONLINE SERVICES RFx ID : 35045167",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2026-10-21",
+        "evidence": "Close Date : Wednesday, 21 October 2026",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "83000000 - Public Utilities and Public Sector Related Services",
+        "evidence": "Categories : 83000000 - Public Utilities and Public Sector Related Services",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "Canterbury",
+        "evidence": "Regions: Canterbury",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": null,
+        "evidence": "Contact : Via VendorPanel Forum Only",
+        "confidence": 0.5,
+        "issues": [
+          "keyword_present_but_empty"
+        ],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0031": {
+    "doc_id": "GETS-2026-0031",
+    "source_file": "data/raw/tender/tender_35127157.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:03",
+    "confidence_min": 0.5,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "Waimakariri District Council",
+        "evidence": "GETS > Waimakariri District Council",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "Contract 26/10 - Murray Street Sewer - Advertising Notice",
+        "evidence": "Tender Name : Contract 26/10 - Murray Street Sewer - Advertising Notice",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "35127157",
+        "evidence": "RFx ID : 35127157",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2026-10-21",
+        "evidence": "Close Date : Wednesday, 21 October 2026",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "83000000 - Public Utilities and Public Sector Related Services",
+        "evidence": "Categories : 83000000 - Public Utilities and Public Sector Related Services",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "Canterbury",
+        "evidence": "Regions: Canterbury",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": null,
+        "evidence": "Contact : Via VendorPanel Forum Only",
+        "confidence": 0.5,
+        "issues": [
+          "keyword_present_but_empty"
+        ],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0032": {
+    "doc_id": "GETS-2026-0032",
+    "source_file": "data/raw/tender/tender_35129419.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:03",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "Hutt City Council",
+        "evidence": "GETS > Hutt City Council",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "Advance Notice - Daly Street Redevelopment",
+        "evidence": "Tender Name : Advance Notice - Daly Street Redevelopment",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "35129419",
+        "evidence": "RFx ID : 35129419",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2026-10-21",
+        "evidence": "Close Date : Wednesday, 21 October 2026 5:00 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "95000000 - Land and Buildings and Structures and Thoroughfares",
+        "evidence": "Categories : 95000000 - Land and Buildings and Structures and Thoroughfares",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "Wellington",
+        "evidence": "Regions: Wellington",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": "Graham Allen",
+        "evidence": "Contact : Graham Allen",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0033": {
+    "doc_id": "GETS-2026-0033",
+    "source_file": "data/raw/tender/tender_34908926.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:03",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "Ministry of Business, Innovation and Employment",
+        "evidence": "GETS > Ministry of Business, Innovation and Employment",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "All-Of-Government - Travel Management Services",
+        "evidence": "Tender Name : All-Of-Government - Travel Management Services",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "34908926",
+        "evidence": "RFx ID : 34908926",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2026-10-23",
+        "evidence": "Close Date : Friday, 23 October 2026 5:00 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "90120000 - Travel facilitation",
+        "evidence": "Categories : 90120000 - Travel facilitation",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "International",
+        "evidence": "Regions: International",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": "May Chin",
+        "evidence": "Contact : May Chin",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0034": {
+    "doc_id": "GETS-2026-0034",
+    "source_file": "data/raw/tender/tender_33830698.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:03",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "Ministry of Defence",
+        "evidence": "GETS > Ministry of Defence",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "Advance Notice - Technical Support Services (TSS) Panel Reset 2026",
+        "evidence": "Tender Name : Advance Notice - Technical Support Services (TSS) Panel Reset 2026",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "33830698",
+        "evidence": "RFx ID : 33830698",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2026-10-30",
+        "evidence": "Close Date : Friday, 30 October 2026 5:00 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "80100000 - Management advisory services; 81100000 - Professional engineering services; 82111500 - Technical writing; 86101800 - In service training and manpower development; 86131800 - Military education; 86132000 - Management education and training services; 86132100 - Training planning, facilitation and delivery services; 92000000 - National Defense and Public Order and Security and Safety Services",
+        "evidence": "Categories : 80100000 - Management advisory services",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "New Zealand",
+        "evidence": "Regions: New Zealand",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": "TSS Acquisition Team",
+        "evidence": "Contact : TSS Acquisition Team",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0035": {
+    "doc_id": "GETS-2026-0035",
+    "source_file": "data/raw/tender/tender_35034968.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:03",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "Ministry of Social Development",
+        "evidence": "GETS > Ministry of Social Development",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "Mobile Voice and Data Devices and Services _ Sept 2026",
+        "evidence": "Tender Name : Mobile Voice and Data Devices and Services _ Sept 2026",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "35034968",
+        "evidence": "RFx ID : 35034968",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2026-10-30",
+        "evidence": "Close Date : Friday, 30 October 2026 5:00 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "43000000 - Information Technology Broadcasting and Telecommunications",
+        "evidence": "Categories : 43000000 - Information Technology Broadcasting and Telecommunications",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "New Zealand",
+        "evidence": "Regions: New Zealand",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": "Euan McPetrie",
+        "evidence": "Contact : Euan McPetrie",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0036": {
+    "doc_id": "GETS-2026-0036",
+    "source_file": "data/raw/tender/tender_35056284.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:03",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "Auckland Council",
+        "evidence": "GETS > Auckland Council > Auckland Council (Physical Works) Infrastructure F...",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "Auckland Council (Physical Works) Infrastructure Forward Works Programme Q3 2026",
+        "evidence": "Tender Name : Auckland Council (Physical Works) Infrastructure Forward Works Programme Q3 2026",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "35056284",
+        "evidence": "RFx ID : 35056284",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2026-10-30",
+        "evidence": "Close Date : Friday, 30 October 2026 5:00 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "72000000 - Building and Facility Construction and Maintenance Services; 81100000 - Professional engineering services; 83000000 - Public Utilities and Public Sector Related Services",
+        "evidence": "Categories: 72000000 - Building and Facility Construction and Maintenance Services; 81100000 - Professional engineering services; 83000000 - Public Utilities and Public Sector Related Services",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "Auckland",
+        "evidence": "Regions: Auckland",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": "Procurement",
+        "evidence": "Contact : Procurement",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0037": {
+    "doc_id": "GETS-2026-0037",
+    "source_file": "data/raw/tender/tender_33266797.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 09:58",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "Aurora Energy",
+        "evidence": "GETS > Aurora Energy",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "Electricity Flexibility Solutions - Upper Clutha Area",
+        "evidence": "Tender Name : Electricity Flexibility Solutions - Upper Clutha Area",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "33266797",
+        "evidence": "RFx ID : 33266797",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2028-12-29",
+        "evidence": "Close Date : Friday, 29 December 2028",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "26000000 - Power Generation and Distribution Machinery and Accessories; 81000000 - Engineering and Research and Technology Based Services; 83000000 - Public Utilities and Public Sector Related Services",
+        "evidence": "Categories : 26000000 - Power Generation and Distribution Machinery and Accessories; 81000000 - Engineering and Research and Technology Based Services; 83000000 - Public Utilities and Public Sector Related Services",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "Otago",
+        "evidence": "Regions: Otago",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": "Alistair Harbrow",
+        "evidence": "Contact : Alistair Harbrow",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0038": {
+    "doc_id": "GETS-2026-0038",
+    "source_file": "data/raw/tender/tender_29971844.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:03",
+    "confidence_min": 0.5,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "Accident Compensation Corporation",
+        "evidence": "GETS > Accident Compensation Corporation",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "Clinical Services - Request for Application",
+        "evidence": "Tender Name : Clinical Services - Request for Application",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "29971844",
+        "evidence": "RFx ID : 29971844",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2028-06-30",
+        "evidence": "Close Date : Friday, 30 June 2028 5:00 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "85000000 - Healthcare Services",
+        "evidence": "Categories : 85000000 - Healthcare Services",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "Auckland; Bay of Plenty; Canterbury; Chatham Islands; Gisborne; Hawke's Bay; Manawatu-Wanganui; Marlborough; Nelson; Northland; Otago; Southland; Taranaki; Tasman; Waikato; Wellington; West Coast",
+        "evidence": "Regions: Auckland\nBay of Plenty\nCurrent tenders\nCanterbury\nLate tenders\nChatham Islands\nGisborne\nHawke's Bay\nManawatu-Wanganui\nCompleted tenders\nMarlborough\nPre-qualification Nelson\nNorthland\nReports\nOtago\nSouthland\nTaranaki\nPOLICIES & Tasman\nINFORMATION Waikato\nWellington\nTerms and conditions West Coast",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": null,
+        "evidence": "Contact : Please ask any questions via GETS",
+        "confidence": 0.5,
+        "issues": [
+          "keyword_present_but_empty"
+        ],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0039": {
+    "doc_id": "GETS-2026-0039",
+    "source_file": "data/raw/tender/tender_31338623.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:03",
+    "confidence_min": 0.5,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "Accident Compensation Corporation",
+        "evidence": "GETS > Accident Compensation Corporation > Nursing Services",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "Nursing Services",
+        "evidence": "Tender Name : Nursing Services",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "31338623",
+        "evidence": "RFx ID : 31338623",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2028-02-29",
+        "evidence": "Close Date : Tuesday, 29 February 2028",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "85000000 - Healthcare Services",
+        "evidence": "Categories : 85000000 - Healthcare Services",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "Auckland; Bay of Plenty; Canterbury; Chatham Islands; Gisborne; Hawke's Bay; Manawatu-Wanganui; Marlborough; Nelson; Northland; Otago; Southland; Taranaki; Tasman; Waikato; Wellington; West Coast",
+        "evidence": "Regions: Auckland; Bay of Plenty; Canterbury; Chatham Islands; Gisborne; Hawke's Bay; Manawatu-Wanganui; Marlborough; Nelson; Northland; Otago; Southland; Taranaki; Tasman; Waikato; Wellington; West Coast",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": null,
+        "evidence": "Contact : All questions should be received via GETS",
+        "confidence": 0.5,
+        "issues": [
+          "keyword_present_but_empty"
+        ],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0040": {
+    "doc_id": "GETS-2026-0040",
+    "source_file": "data/raw/tender/tender_34538513.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:03",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "Parliamentary Counsel Office",
+        "evidence": "GETS > Parliamentary Counsel Office > Legislation Services Panel",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "Legislation Services Panel",
+        "evidence": "Tender Name : Legislation Services Panel",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "34538513",
+        "evidence": "ONLINE SERVICES RFx ID : 34538513",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2027-07-22",
+        "evidence": "Close Date : Thursday, 22 July 2027 5:00 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "80101600 - Project management; 80122000 - Legal review and inquiry services",
+        "evidence": "80101600 - Project management\n80122000 - Legal review and inquiry services",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "New Zealand",
+        "evidence": "Regions: New Zealand",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": "Kerry O'Rourke",
+        "evidence": "Contact : Kerry O'Rourke",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0041": {
+    "doc_id": "GETS-2026-0041",
+    "source_file": "data/raw/tender/tender_35091767.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:03",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "Queenstown-Lakes District Council",
+        "evidence": "GETS > Queenstown-Lakes District Council",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "Three waters operational technology communication network",
+        "evidence": "Tender Name : Three waters operational technology communication network",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "35091767",
+        "evidence": "RFx ID : 35091767",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2027-02-15",
+        "evidence": "Close Date : Monday, 15 February 2027 12:00 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "32152000 - Process control or packaged automation systems; 83000000 - Public Utilities and Public Sector Related Services; 83101500 - Water and sewer utilities; 83112500 - Backbone capacities",
+        "evidence": "Categories : 32152000 - Process control or packaged automation systems; 83000000 - Public Utilities and Public Sector Related Services; 83101500 - Water and sewer utilities; 83112500 - Backbone capacities",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "Otago",
+        "evidence": "Regions: Otago",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": "Procurement Administrator",
+        "evidence": "Contact : Procurement Administrator",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0042": {
+    "doc_id": "GETS-2026-0042",
+    "source_file": "data/raw/tender/tender_34733646.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:04",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "Queenstown-Lakes District Council",
+        "evidence": "GETS > Queenstown-Lakes District Council",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "C-27-019 Queenstown Hill Wilding Conifer Harvest",
+        "evidence": "Tender Name : C-27-019 Queenstown Hill Wilding Conifer Harvest",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "34733646",
+        "evidence": "RFx ID : 34733646",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2026-11-30",
+        "evidence": "Close Date : Monday, 30 November 2026 5:00 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "21000000 - Farming and Fishing and Forestry and Wildlife Machinery and Accessories; 70000000 - Farming and Fishing and Forestry and Wildlife Contracting Services",
+        "evidence": "Categories : 21000000 - Farming and Fishing and Forestry and Wildlife Machinery and Accessories\n70000000 - Farming and Fishing and Forestry and Wildlife Contracting Services",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "Otago",
+        "evidence": "Regions: Otago",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": "Tender Secretary",
+        "evidence": "Contact : Tender Secretary",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0043": {
+    "doc_id": "GETS-2026-0043",
+    "source_file": "data/raw/tender/tender_34134620.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:04",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "Ministry of Foreign Affairs and Trade",
+        "evidence": "GETS > Ministry of Foreign Affairs and Trade",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "Advance Notice: Vanuatu Resilient Education Infrastructure",
+        "evidence": "Tender Name : Advance Notice: Vanuatu Resilient Education Infrastructure",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "34134620",
+        "evidence": "RFx ID : 34134620",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2027-01-20",
+        "evidence": "Close Date : Wednesday, 20 January 2027",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "72100000 - Building and facility maintenance and repair services; 72120000 - Nonresidential building construction services",
+        "evidence": "Categories : 72100000 - Building and facility maintenance and repair services; 72120000 - Nonresidential building construction services",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "International",
+        "evidence": "Regions: International",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": "Harry Birkett",
+        "evidence": "Contact : Harry Birkett",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0044": {
+    "doc_id": "GETS-2026-0044",
+    "source_file": "data/raw/tender/tender_35091453.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:04",
+    "confidence_min": 0.5,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "WaterCare Services Ltd",
+        "evidence": "GETS > WaterCare Services Ltd > RFP - South -Central Networks Maintenance 2026",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "RFP - South -Central Networks Maintenance 2026",
+        "evidence": "Tender Name : RFP - South -Central Networks Maintenance 2026",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "35091453",
+        "evidence": "Create account RFx ID : 35091453",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2026-12-21",
+        "evidence": "Close Date : Monday, 21 December 2026 11:00 AM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": null,
+        "evidence": "Categories : The United Nations Standard Products and Services Code (UNSPSC)",
+        "confidence": 0.5,
+        "issues": [
+          "keyword_present_but_empty"
+        ],
+        "final_value": null
+      },
+      "region": {
+        "value": "Auckland",
+        "evidence": "Regions: Auckland",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": "Diana Ardila",
+        "evidence": "Contact : Diana Ardila",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0045": {
+    "doc_id": "GETS-2026-0045",
+    "source_file": "data/raw/tender/tender_33832412.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:04",
+    "confidence_min": 0.5,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "Ministry for Primary Industries",
+        "evidence": "GETS > Ministry for Primary Industries > Primary Sector Growth Fund",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "Primary Sector Growth Fund",
+        "evidence": "Tender Name : Primary Sector Growth Fund",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "33832412",
+        "evidence": "RFx ID : 33832412",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2029-06-30",
+        "evidence": "Close Date : Saturday, 30 June 2029 11:30 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "84101500 - Development assistance",
+        "evidence": "Categories : 84101500 - Development assistance",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "New Zealand",
+        "evidence": "Regions: New Zealand",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": null,
+        "evidence": "Contact : psgfund@mpi.govt.nz",
+        "confidence": 0.5,
+        "issues": [
+          "keyword_present_but_empty"
+        ],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0046": {
+    "doc_id": "GETS-2026-0046",
+    "source_file": "data/raw/tender/tender_33694604.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:04",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "Christchurch City Council",
+        "evidence": "GETS > Christchurch City Council",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "CWTP Wastewater Mesophilic Digester 1 Emptying and Cleaning",
+        "evidence": "Tender Name : CWTP Wastewater Mesophilic Digester 1 Emptying and Cleaning",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "33694604",
+        "evidence": "RFx ID : 33694604",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2026-10-09",
+        "evidence": "Close Date : Friday, 9 October 2026 12:00 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "47100000 - Water and wastewater treatment supply and disposal; 76000000 - Industrial Cleaning Services",
+        "evidence": "Categories : 47100000 - Water and wastewater treatment supply and disposal\n76000000 - Industrial Cleaning Services",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "Canterbury",
+        "evidence": "Regions: Canterbury",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": "Steffie Pereira",
+        "evidence": "Contact : Steffie Pereira",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0047": {
+    "doc_id": "GETS-2026-0047",
+    "source_file": "data/raw/tender/tender_34865819.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:04",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "Grey District Council",
+        "evidence": "GETS > Grey District Council",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "Greater Greymouth WTP Pre-treatment Upgrade",
+        "evidence": "Tender Name : Greater Greymouth WTP Pre-treatment Upgrade",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "34865819",
+        "evidence": "RFx ID : 34865819",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2026-10-09",
+        "evidence": "Close Date : Friday, 9 October 2026",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "83101500 - Water and sewer utilities",
+        "evidence": "Categories : 83101500 - Water and sewer utilities",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "West Coast",
+        "evidence": "Regions: West Coast",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": "Emma Topp",
+        "evidence": "Contact : Emma Topp",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0048": {
+    "doc_id": "GETS-2026-0048",
+    "source_file": "data/raw/tender/tender_34708070.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 09:59",
+    "confidence_min": 0.5,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "Gisborne District Council",
+        "evidence": "GETS > Gisborne District Council",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "Land Drainage, Rivers & Coastal Maintenance Contract",
+        "evidence": "Tender Name : Land Drainage, Rivers & Coastal Maintenance Contract",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "34708070",
+        "evidence": "RFx ID : 34708070",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2026-10-09",
+        "evidence": "Close Date : Friday, 9 October 2026 12:00 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "70000000 - Farming and Fishing and Forestry and Wildlife Contracting Services; 72000000 - Building and Facility Construction and Maintenance Services; 83101500 - Water and sewer utilities",
+        "evidence": "Categories : 70000000 - Farming and Fishing and Forestry and Wildlife Contracting Services; 72000000 - Building and Facility Construction and Maintenance Services; 83101500 - Water and sewer utilities",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "Gisborne",
+        "evidence": "Regions: Gisborne",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": null,
+        "evidence": "Contact : Questions to be submitted via GETS",
+        "confidence": 0.5,
+        "issues": [
+          "keyword_present_but_empty"
+        ],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0049": {
+    "doc_id": "GETS-2026-0049",
+    "source_file": "data/raw/tender/tender_34939478.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:04",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "Tertiary Education Commission",
+        "evidence": "GETS > Tertiary Education Commission > Suppliers of Independent Asset Management Reviews",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "Suppliers of Independent Asset Management Reviews",
+        "evidence": "Tender Name : Suppliers of Independent Asset Management Reviews",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "34939478",
+        "evidence": "RFx ID : 34939478",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2026-10-09",
+        "evidence": "Close Date : Friday, 9 October 2026 12:00 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "80000000 - Management and Business Professionals and Administrative Services",
+        "evidence": "Categories : 80000000 - Management and Business Professionals and Administrative Services",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "New Zealand",
+        "evidence": "Regions: New Zealand",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": "Micheal David",
+        "evidence": "Contact : Micheal David",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  },
+  "GETS-2026-0050": {
+    "doc_id": "GETS-2026-0050",
+    "source_file": "data/raw/tender/tender_35008398.pdf",
+    "schema_used": "schema_tender",
+    "model": "gpt-6-luna",
+    "extracted_at": "2026-10-09 10:04",
+    "confidence_min": 1.0,
+    "error": null,
+    "fields": {
+      "agency": {
+        "value": "Hawke's Bay Regional Council",
+        "evidence": "GETS > Hawke's Bay Regional Council",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "title": {
+        "value": "Risk Quality Control & Assurance Services",
+        "evidence": "Tender Name : Risk Quality Control & Assurance Services",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "reference": {
+        "value": "35008398",
+        "evidence": "RFx ID : 35008398",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "close_date": {
+        "value": "2026-10-09",
+        "evidence": "Close Date : Friday, 9 October 2026 3:00 PM",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "category": {
+        "value": "80000000 - Management and Business Professionals and Administrative Services; 93150000 - Public administration and finance services",
+        "evidence": "Categories : 80000000 - Management and Business Professionals and Administrative Services; 93150000 - Public administration and finance services",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "region": {
+        "value": "Hawke's Bay",
+        "evidence": "Regions: Hawke's Bay",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      },
+      "contact_name": {
+        "value": "Graham Pomeroy",
+        "evidence": "Contact : Graham Pomeroy",
+        "confidence": 1.0,
+        "issues": [],
+        "final_value": null
+      }
+    }
+  }
+}
