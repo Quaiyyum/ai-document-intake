@@ -1,57 +1,57 @@
-doc_id,source_file,received_at,status,processed_at,confidence_min,schema_used,received_date,turnaround_minutes
-GETS-2026-0001,tender_35030310.pdf,2026-10-09 08:18,processed,2026-10-09 11:25,0.5,schema_tender,2026-10-09,187
-GETS-2026-0002,tender_35111110.pdf,2026-10-09 08:18,extracted,2026-10-09 10:02,1.0,schema_tender,2026-10-09,104
-GETS-2026-0003,tender_34870463.pdf,2026-10-09 08:18,processed,2026-10-09 11:25,0.5,schema_tender,2026-10-09,187
-GETS-2026-0004,tender_35035327.pdf,2026-10-09 08:18,processed,2026-10-09 11:25,0.5,schema_tender,2026-10-09,187
-GETS-2026-0005,tender_34960103.pdf,2026-10-09 08:18,extracted,2026-10-09 10:02,1.0,schema_tender,2026-10-09,104
-GETS-2026-0006,tender_35092357.pdf,2026-10-09 08:19,extracted,2026-10-09 10:02,1.0,schema_tender,2026-10-09,103
-GETS-2026-0007,tender_34962605.pdf,2026-10-09 08:19,extracted,2026-10-09 10:02,1.0,schema_tender,2026-10-09,103
-GETS-2026-0008,tender_32705858.pdf,2026-10-09 08:19,extracted,2026-10-09 10:02,1.0,schema_tender,2026-10-09,103
-GETS-2026-0009,tender_34911428.pdf,2026-10-09 08:19,extracted,2026-10-09 10:02,1.0,schema_tender,2026-10-09,103
-GETS-2026-0010,tender_34921850.pdf,2026-10-09 08:19,extracted,2026-10-09 10:02,1.0,schema_tender,2026-10-09,103
-GETS-2026-0011,tender_34891545.pdf,2026-10-09 08:19,extracted,2026-10-09 09:58,1.0,schema_tender,2026-10-09,99
-GETS-2026-0012,tender_35090813.pdf,2026-10-09 08:19,extracted,2026-10-09 10:02,1.0,schema_tender,2026-10-09,103
-GETS-2026-0013,tender_35068879.pdf,2026-10-09 08:19,extracted,2026-10-09 10:02,1.0,schema_tender,2026-10-09,103
-GETS-2026-0014,tender_34761285.pdf,2026-10-09 08:19,extracted,2026-10-09 10:02,1.0,schema_tender,2026-10-09,103
-GETS-2026-0015,tender_34842108.pdf,2026-10-09 08:19,extracted,2026-10-09 10:02,1.0,schema_tender,2026-10-09,103
-GETS-2026-0016,tender_34924335.pdf,2026-10-09 08:19,extracted,2026-10-09 10:02,1.0,schema_tender,2026-10-09,103
-GETS-2026-0017,tender_34924423.pdf,2026-10-09 08:19,extracted,2026-10-09 10:02,1.0,schema_tender,2026-10-09,103
-GETS-2026-0018,tender_23700412.pdf,2026-10-09 08:20,extracted,2026-10-09 10:02,1.0,schema_tender,2026-10-09,102
-GETS-2026-0019,tender_33732411.pdf,2026-10-09 08:20,extracted,2026-10-09 10:02,1.0,schema_tender,2026-10-09,102
-GETS-2026-0020,tender_32504269.pdf,2026-10-09 08:20,processed,2026-10-09 11:25,0.5,schema_tender,2026-10-09,185
-GETS-2026-0021,tender_31377530.pdf,2026-10-09 08:20,extracted,2026-10-09 10:02,1.0,schema_tender,2026-10-09,102
-GETS-2026-0022,tender_29898765.pdf,2026-10-09 08:20,extracted,2026-10-09 10:03,1.0,schema_tender,2026-10-09,103
-GETS-2026-0023,tender_31232412.pdf,2026-10-09 08:20,extracted,2026-10-09 10:03,1.0,schema_tender,2026-10-09,103
-GETS-2026-0024,tender_35147829.pdf,2026-10-09 08:20,extracted,2026-10-09 10:03,1.0,schema_tender,2026-10-09,103
-GETS-2026-0025,tender_34645793.pdf,2026-10-09 08:20,extracted,2026-10-09 10:03,1.0,schema_tender,2026-10-09,103
-GETS-2026-0026,tender_35116860.pdf,2026-10-09 08:20,extracted,2026-10-09 10:03,1.0,schema_tender,2026-10-09,103
-GETS-2026-0027,tender_35098594.pdf,2026-10-09 08:20,extracted,2026-10-09 10:03,1.0,schema_tender,2026-10-09,103
-GETS-2026-0028,tender_34992673.pdf,2026-10-09 08:20,extracted,2026-10-09 10:03,1.0,schema_tender,2026-10-09,103
-GETS-2026-0029,tender_35010726.pdf,2026-10-09 08:20,processed,2026-10-09 11:25,0.5,schema_tender,2026-10-09,185
-GETS-2026-0030,tender_35045167.pdf,2026-10-09 08:20,processed,2026-10-09 11:25,0.5,schema_tender,2026-10-09,185
-GETS-2026-0031,tender_35127157.pdf,2026-10-09 08:21,processed,2026-10-09 11:25,0.5,schema_tender,2026-10-09,184
-GETS-2026-0032,tender_35129419.pdf,2026-10-09 08:21,extracted,2026-10-09 10:03,1.0,schema_tender,2026-10-09,102
-GETS-2026-0033,tender_34908926.pdf,2026-10-09 08:21,extracted,2026-10-09 10:03,1.0,schema_tender,2026-10-09,102
-GETS-2026-0034,tender_33830698.pdf,2026-10-09 08:21,extracted,2026-10-09 10:03,1.0,schema_tender,2026-10-09,102
-GETS-2026-0035,tender_35034968.pdf,2026-10-09 08:21,extracted,2026-10-09 10:03,1.0,schema_tender,2026-10-09,102
-GETS-2026-0036,tender_35056284.pdf,2026-10-09 08:21,extracted,2026-10-09 10:03,1.0,schema_tender,2026-10-09,102
-GETS-2026-0037,tender_33266797.pdf,2026-10-09 08:21,extracted,2026-10-09 09:58,1.0,schema_tender,2026-10-09,97
-GETS-2026-0038,tender_29971844.pdf,2026-10-09 08:21,processed,2026-10-09 11:25,0.5,schema_tender,2026-10-09,184
-GETS-2026-0039,tender_31338623.pdf,2026-10-09 08:21,processed,2026-10-09 11:25,0.5,schema_tender,2026-10-09,184
-GETS-2026-0040,tender_34538513.pdf,2026-10-09 08:21,extracted,2026-10-09 10:03,1.0,schema_tender,2026-10-09,102
-GETS-2026-0041,tender_35091767.pdf,2026-10-09 08:21,extracted,2026-10-09 10:03,1.0,schema_tender,2026-10-09,102
-GETS-2026-0042,tender_34733646.pdf,2026-10-09 08:21,extracted,2026-10-09 10:04,1.0,schema_tender,2026-10-09,103
-GETS-2026-0043,tender_34134620.pdf,2026-10-09 08:22,extracted,2026-10-09 10:04,1.0,schema_tender,2026-10-09,102
-GETS-2026-0044,tender_35091453.pdf,2026-10-09 08:22,processed,2026-10-09 11:25,0.5,schema_tender,2026-10-09,183
-GETS-2026-0045,tender_33832412.pdf,2026-10-09 08:22,processed,2026-10-09 11:25,0.5,schema_tender,2026-10-09,183
-GETS-2026-0046,tender_33694604.pdf,2026-10-09 08:22,extracted,2026-10-09 10:04,1.0,schema_tender,2026-10-09,102
-GETS-2026-0047,tender_34865819.pdf,2026-10-09 08:22,extracted,2026-10-09 10:04,1.0,schema_tender,2026-10-09,102
-GETS-2026-0048,tender_34708070.pdf,2026-10-09 08:22,processed,2026-10-09 11:25,0.5,schema_tender,2026-10-09,183
-GETS-2026-0049,tender_34939478.pdf,2026-10-09 08:22,extracted,2026-10-09 10:04,1.0,schema_tender,2026-10-09,102
-GETS-2026-0050,tender_35008398.pdf,2026-10-09 08:22,extracted,2026-10-09 10:04,1.0,schema_tender,2026-10-09,102
-LEAD-2026-0001,lead_0001.pdf,2026-10-09 11:44,extracted,2026-10-09 11:48,1.0,schema_realestate_lead,2026-10-09,4
-LEAD-2026-0002,lead_0002.pdf,2026-10-09 11:44,extracted,2026-10-09 11:48,1.0,schema_realestate_lead,2026-10-09,4
-LEAD-2026-0003,lead_0003.pdf,2026-10-09 11:44,needs_review,,0.0,schema_realestate_lead,2026-10-09,
-LOAN-2026-0001,loan_0001.pdf,2026-10-09 11:44,extracted,2026-10-09 11:48,1.0,schema_loan_application,2026-10-09,4
-LOAN-2026-0002,loan_0002.pdf,2026-10-09 11:44,needs_review,,0.5,schema_loan_application,2026-10-09,
-LOAN-2026-0003,loan_0003.pdf,2026-10-09 11:44,needs_review,,0.0,schema_loan_application,2026-10-09,
+doc_id,source_file,received_at,status,processed_at,confidence_min,schema_used,received_date,turnaround_minutes,doc_type,needed_review
+GETS-2026-0001,tender_35030310.pdf,2026-10-09 08:18,processed,2026-10-09 11:25,0.5,schema_tender,2026-10-09,187,NZ government tender notice,Yes
+GETS-2026-0002,tender_35111110.pdf,2026-10-09 08:18,extracted,2026-10-09 10:02,1.0,schema_tender,2026-10-09,104,NZ government tender notice,No
+GETS-2026-0003,tender_34870463.pdf,2026-10-09 08:18,processed,2026-10-09 11:25,0.5,schema_tender,2026-10-09,187,NZ government tender notice,Yes
+GETS-2026-0004,tender_35035327.pdf,2026-10-09 08:18,processed,2026-10-09 11:25,0.5,schema_tender,2026-10-09,187,NZ government tender notice,Yes
+GETS-2026-0005,tender_34960103.pdf,2026-10-09 08:18,extracted,2026-10-09 10:02,1.0,schema_tender,2026-10-09,104,NZ government tender notice,No
+GETS-2026-0006,tender_35092357.pdf,2026-10-09 08:19,extracted,2026-10-09 10:02,1.0,schema_tender,2026-10-09,103,NZ government tender notice,No
+GETS-2026-0007,tender_34962605.pdf,2026-10-09 08:19,extracted,2026-10-09 10:02,1.0,schema_tender,2026-10-09,103,NZ government tender notice,No
+GETS-2026-0008,tender_32705858.pdf,2026-10-09 08:19,extracted,2026-10-09 10:02,1.0,schema_tender,2026-10-09,103,NZ government tender notice,No
+GETS-2026-0009,tender_34911428.pdf,2026-10-09 08:19,extracted,2026-10-09 10:02,1.0,schema_tender,2026-10-09,103,NZ government tender notice,No
+GETS-2026-0010,tender_34921850.pdf,2026-10-09 08:19,extracted,2026-10-09 10:02,1.0,schema_tender,2026-10-09,103,NZ government tender notice,No
+GETS-2026-0011,tender_34891545.pdf,2026-10-09 08:19,extracted,2026-10-09 09:58,1.0,schema_tender,2026-10-09,99,NZ government tender notice,No
+GETS-2026-0012,tender_35090813.pdf,2026-10-09 08:19,extracted,2026-10-09 10:02,1.0,schema_tender,2026-10-09,103,NZ government tender notice,No
+GETS-2026-0013,tender_35068879.pdf,2026-10-09 08:19,extracted,2026-10-09 10:02,1.0,schema_tender,2026-10-09,103,NZ government tender notice,No
+GETS-2026-0014,tender_34761285.pdf,2026-10-09 08:19,extracted,2026-10-09 10:02,1.0,schema_tender,2026-10-09,103,NZ government tender notice,No
+GETS-2026-0015,tender_34842108.pdf,2026-10-09 08:19,extracted,2026-10-09 10:02,1.0,schema_tender,2026-10-09,103,NZ government tender notice,No
+GETS-2026-0016,tender_34924335.pdf,2026-10-09 08:19,extracted,2026-10-09 10:02,1.0,schema_tender,2026-10-09,103,NZ government tender notice,No
+GETS-2026-0017,tender_34924423.pdf,2026-10-09 08:19,extracted,2026-10-09 10:02,1.0,schema_tender,2026-10-09,103,NZ government tender notice,No
+GETS-2026-0018,tender_23700412.pdf,2026-10-09 08:20,extracted,2026-10-09 10:02,1.0,schema_tender,2026-10-09,102,NZ government tender notice,No
+GETS-2026-0019,tender_33732411.pdf,2026-10-09 08:20,extracted,2026-10-09 10:02,1.0,schema_tender,2026-10-09,102,NZ government tender notice,No
+GETS-2026-0020,tender_32504269.pdf,2026-10-09 08:20,processed,2026-10-09 11:25,0.5,schema_tender,2026-10-09,185,NZ government tender notice,Yes
+GETS-2026-0021,tender_31377530.pdf,2026-10-09 08:20,extracted,2026-10-09 10:02,1.0,schema_tender,2026-10-09,102,NZ government tender notice,No
+GETS-2026-0022,tender_29898765.pdf,2026-10-09 08:20,extracted,2026-10-09 10:03,1.0,schema_tender,2026-10-09,103,NZ government tender notice,No
+GETS-2026-0023,tender_31232412.pdf,2026-10-09 08:20,extracted,2026-10-09 10:03,1.0,schema_tender,2026-10-09,103,NZ government tender notice,No
+GETS-2026-0024,tender_35147829.pdf,2026-10-09 08:20,extracted,2026-10-09 10:03,1.0,schema_tender,2026-10-09,103,NZ government tender notice,No
+GETS-2026-0025,tender_34645793.pdf,2026-10-09 08:20,extracted,2026-10-09 10:03,1.0,schema_tender,2026-10-09,103,NZ government tender notice,No
+GETS-2026-0026,tender_35116860.pdf,2026-10-09 08:20,extracted,2026-10-09 10:03,1.0,schema_tender,2026-10-09,103,NZ government tender notice,No
+GETS-2026-0027,tender_35098594.pdf,2026-10-09 08:20,extracted,2026-10-09 10:03,1.0,schema_tender,2026-10-09,103,NZ government tender notice,No
+GETS-2026-0028,tender_34992673.pdf,2026-10-09 08:20,extracted,2026-10-09 10:03,1.0,schema_tender,2026-10-09,103,NZ government tender notice,No
+GETS-2026-0029,tender_35010726.pdf,2026-10-09 08:20,processed,2026-10-09 11:25,0.5,schema_tender,2026-10-09,185,NZ government tender notice,Yes
+GETS-2026-0030,tender_35045167.pdf,2026-10-09 08:20,processed,2026-10-09 11:25,0.5,schema_tender,2026-10-09,185,NZ government tender notice,Yes
+GETS-2026-0031,tender_35127157.pdf,2026-10-09 08:21,processed,2026-10-09 11:25,0.5,schema_tender,2026-10-09,184,NZ government tender notice,Yes
+GETS-2026-0032,tender_35129419.pdf,2026-10-09 08:21,extracted,2026-10-09 10:03,1.0,schema_tender,2026-10-09,102,NZ government tender notice,No
+GETS-2026-0033,tender_34908926.pdf,2026-10-09 08:21,extracted,2026-10-09 10:03,1.0,schema_tender,2026-10-09,102,NZ government tender notice,No
+GETS-2026-0034,tender_33830698.pdf,2026-10-09 08:21,extracted,2026-10-09 10:03,1.0,schema_tender,2026-10-09,102,NZ government tender notice,No
+GETS-2026-0035,tender_35034968.pdf,2026-10-09 08:21,extracted,2026-10-09 10:03,1.0,schema_tender,2026-10-09,102,NZ government tender notice,No
+GETS-2026-0036,tender_35056284.pdf,2026-10-09 08:21,extracted,2026-10-09 10:03,1.0,schema_tender,2026-10-09,102,NZ government tender notice,No
+GETS-2026-0037,tender_33266797.pdf,2026-10-09 08:21,extracted,2026-10-09 09:58,1.0,schema_tender,2026-10-09,97,NZ government tender notice,No
+GETS-2026-0038,tender_29971844.pdf,2026-10-09 08:21,processed,2026-10-09 11:25,0.5,schema_tender,2026-10-09,184,NZ government tender notice,Yes
+GETS-2026-0039,tender_31338623.pdf,2026-10-09 08:21,processed,2026-10-09 11:25,0.5,schema_tender,2026-10-09,184,NZ government tender notice,Yes
+GETS-2026-0040,tender_34538513.pdf,2026-10-09 08:21,extracted,2026-10-09 10:03,1.0,schema_tender,2026-10-09,102,NZ government tender notice,No
+GETS-2026-0041,tender_35091767.pdf,2026-10-09 08:21,extracted,2026-10-09 10:03,1.0,schema_tender,2026-10-09,102,NZ government tender notice,No
+GETS-2026-0042,tender_34733646.pdf,2026-10-09 08:21,extracted,2026-10-09 10:04,1.0,schema_tender,2026-10-09,103,NZ government tender notice,No
+GETS-2026-0043,tender_34134620.pdf,2026-10-09 08:22,extracted,2026-10-09 10:04,1.0,schema_tender,2026-10-09,102,NZ government tender notice,No
+GETS-2026-0044,tender_35091453.pdf,2026-10-09 08:22,processed,2026-10-09 11:25,0.5,schema_tender,2026-10-09,183,NZ government tender notice,Yes
+GETS-2026-0045,tender_33832412.pdf,2026-10-09 08:22,processed,2026-10-09 11:25,0.5,schema_tender,2026-10-09,183,NZ government tender notice,Yes
+GETS-2026-0046,tender_33694604.pdf,2026-10-09 08:22,extracted,2026-10-09 10:04,1.0,schema_tender,2026-10-09,102,NZ government tender notice,No
+GETS-2026-0047,tender_34865819.pdf,2026-10-09 08:22,extracted,2026-10-09 10:04,1.0,schema_tender,2026-10-09,102,NZ government tender notice,No
+GETS-2026-0048,tender_34708070.pdf,2026-10-09 08:22,processed,2026-10-09 11:25,0.5,schema_tender,2026-10-09,183,NZ government tender notice,Yes
+GETS-2026-0049,tender_34939478.pdf,2026-10-09 08:22,extracted,2026-10-09 10:04,1.0,schema_tender,2026-10-09,102,NZ government tender notice,No
+GETS-2026-0050,tender_35008398.pdf,2026-10-09 08:22,extracted,2026-10-09 10:04,1.0,schema_tender,2026-10-09,102,NZ government tender notice,No
+LEAD-2026-0001,lead_0001.pdf,2026-10-09 11:44,extracted,2026-10-09 11:48,1.0,schema_realestate_lead,2026-10-09,4,Real-estate buyer enquiry email,No
+LEAD-2026-0002,lead_0002.pdf,2026-10-09 11:44,extracted,2026-10-09 11:48,1.0,schema_realestate_lead,2026-10-09,4,Real-estate buyer enquiry email,No
+LEAD-2026-0003,lead_0003.pdf,2026-10-09 11:44,needs_review,,0.0,schema_realestate_lead,2026-10-09,,Real-estate buyer enquiry email,Yes
+LOAN-2026-0001,loan_0001.pdf,2026-10-09 11:44,extracted,2026-10-09 11:48,1.0,schema_loan_application,2026-10-09,4,Home loan application form (New Zealand lender),No
+LOAN-2026-0002,loan_0002.pdf,2026-10-09 11:44,needs_review,,0.5,schema_loan_application,2026-10-09,,Home loan application form (New Zealand lender),Yes
+LOAN-2026-0003,loan_0003.pdf,2026-10-09 11:44,needs_review,,0.0,schema_loan_application,2026-10-09,,Home loan application form (New Zealand lender),Yes
