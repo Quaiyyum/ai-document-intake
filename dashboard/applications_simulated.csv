@@ -1,0 +1,57 @@
+doc_id,source_file,received_at,status,processed_at,confidence_min,schema_used,received_date,turnaround_minutes,doc_type,needed_review,timing_basis
+GETS-2026-0001,tender_35030310.pdf,2026-10-05 09:01,processed,2026-10-06 04:47,0.5,schema_tender,2026-10-05,1186,NZ government tender notice,Yes,SIMULATED
+GETS-2026-0002,tender_35111110.pdf,2026-09-24 11:08,extracted,2026-09-24 11:13,1.0,schema_tender,2026-09-24,5,NZ government tender notice,No,SIMULATED
+GETS-2026-0003,tender_34870463.pdf,2026-10-05 16:05,processed,2026-10-07 09:23,0.5,schema_tender,2026-10-05,2478,NZ government tender notice,Yes,SIMULATED
+GETS-2026-0004,tender_35035327.pdf,2026-09-29 08:01,processed,2026-09-29 15:24,0.5,schema_tender,2026-09-29,443,NZ government tender notice,Yes,SIMULATED
+GETS-2026-0005,tender_34960103.pdf,2026-09-24 11:32,extracted,2026-09-24 11:34,1.0,schema_tender,2026-09-24,2,NZ government tender notice,No,SIMULATED
+GETS-2026-0006,tender_35092357.pdf,2026-10-01 11:45,extracted,2026-10-01 12:04,1.0,schema_tender,2026-10-01,19,NZ government tender notice,No,SIMULATED
+GETS-2026-0007,tender_34962605.pdf,2026-09-29 11:28,extracted,2026-09-29 11:48,1.0,schema_tender,2026-09-29,20,NZ government tender notice,No,SIMULATED
+GETS-2026-0008,tender_32705858.pdf,2026-09-25 08:48,extracted,2026-09-25 08:55,1.0,schema_tender,2026-09-25,7,NZ government tender notice,No,SIMULATED
+GETS-2026-0009,tender_34911428.pdf,2026-10-06 14:21,extracted,2026-10-06 14:31,1.0,schema_tender,2026-10-06,10,NZ government tender notice,No,SIMULATED
+GETS-2026-0010,tender_34921850.pdf,2026-09-23 11:48,extracted,2026-09-23 12:00,1.0,schema_tender,2026-09-23,12,NZ government tender notice,No,SIMULATED
+GETS-2026-0011,tender_34891545.pdf,2026-09-22 09:24,extracted,2026-09-22 09:29,1.0,schema_tender,2026-09-22,5,NZ government tender notice,No,SIMULATED
+GETS-2026-0012,tender_35090813.pdf,2026-09-28 13:38,extracted,2026-09-28 13:48,1.0,schema_tender,2026-09-28,10,NZ government tender notice,No,SIMULATED
+GETS-2026-0013,tender_35068879.pdf,2026-10-07 08:46,extracted,2026-10-07 09:02,1.0,schema_tender,2026-10-07,16,NZ government tender notice,No,SIMULATED
+GETS-2026-0014,tender_34761285.pdf,2026-10-01 09:59,extracted,2026-10-01 10:13,1.0,schema_tender,2026-10-01,14,NZ government tender notice,No,SIMULATED
+GETS-2026-0015,tender_34842108.pdf,2026-09-22 16:18,extracted,2026-09-22 16:31,1.0,schema_tender,2026-09-22,13,NZ government tender notice,No,SIMULATED
+GETS-2026-0016,tender_34924335.pdf,2026-10-02 11:45,extracted,2026-10-02 11:49,1.0,schema_tender,2026-10-02,4,NZ government tender notice,No,SIMULATED
+GETS-2026-0017,tender_34924423.pdf,2026-09-21 11:49,extracted,2026-09-21 12:00,1.0,schema_tender,2026-09-21,11,NZ government tender notice,No,SIMULATED
+GETS-2026-0018,tender_23700412.pdf,2026-09-22 11:55,extracted,2026-09-22 12:00,1.0,schema_tender,2026-09-22,5,NZ government tender notice,No,SIMULATED
+GETS-2026-0019,tender_33732411.pdf,2026-09-29 12:29,extracted,2026-09-29 12:42,1.0,schema_tender,2026-09-29,13,NZ government tender notice,No,SIMULATED
+GETS-2026-0020,tender_32504269.pdf,2026-09-23 13:22,processed,2026-09-24 04:40,0.5,schema_tender,2026-09-23,918,NZ government tender notice,Yes,SIMULATED
+GETS-2026-0021,tender_31377530.pdf,2026-10-05 12:44,extracted,2026-10-05 12:48,1.0,schema_tender,2026-10-05,4,NZ government tender notice,No,SIMULATED
+GETS-2026-0022,tender_29898765.pdf,2026-10-02 10:34,extracted,2026-10-02 10:43,1.0,schema_tender,2026-10-02,9,NZ government tender notice,No,SIMULATED
+GETS-2026-0023,tender_31232412.pdf,2026-09-23 15:24,extracted,2026-09-23 15:34,1.0,schema_tender,2026-09-23,10,NZ government tender notice,No,SIMULATED
+GETS-2026-0024,tender_35147829.pdf,2026-10-09 16:14,extracted,2026-10-09 16:26,1.0,schema_tender,2026-10-09,12,NZ government tender notice,No,SIMULATED
+GETS-2026-0025,tender_34645793.pdf,2026-10-08 08:14,extracted,2026-10-08 08:17,1.0,schema_tender,2026-10-08,3,NZ government tender notice,No,SIMULATED
+GETS-2026-0026,tender_35116860.pdf,2026-10-07 13:25,extracted,2026-10-07 13:35,1.0,schema_tender,2026-10-07,10,NZ government tender notice,No,SIMULATED
+GETS-2026-0027,tender_35098594.pdf,2026-09-22 11:58,extracted,2026-09-22 12:18,1.0,schema_tender,2026-09-22,20,NZ government tender notice,No,SIMULATED
+GETS-2026-0028,tender_34992673.pdf,2026-10-09 13:13,extracted,2026-10-09 13:30,1.0,schema_tender,2026-10-09,17,NZ government tender notice,No,SIMULATED
+GETS-2026-0029,tender_35010726.pdf,2026-09-29 15:09,processed,2026-09-30 10:13,0.5,schema_tender,2026-09-29,1144,NZ government tender notice,Yes,SIMULATED
+GETS-2026-0030,tender_35045167.pdf,2026-09-23 11:47,processed,2026-09-25 03:06,0.5,schema_tender,2026-09-23,2359,NZ government tender notice,Yes,SIMULATED
+GETS-2026-0031,tender_35127157.pdf,2026-10-01 12:47,processed,2026-10-03 05:41,0.5,schema_tender,2026-10-01,2454,NZ government tender notice,Yes,SIMULATED
+GETS-2026-0032,tender_35129419.pdf,2026-09-29 14:23,extracted,2026-09-29 14:32,1.0,schema_tender,2026-09-29,9,NZ government tender notice,No,SIMULATED
+GETS-2026-0033,tender_34908926.pdf,2026-09-23 16:31,extracted,2026-09-23 16:35,1.0,schema_tender,2026-09-23,4,NZ government tender notice,No,SIMULATED
+GETS-2026-0034,tender_33830698.pdf,2026-10-07 08:55,extracted,2026-10-07 09:00,1.0,schema_tender,2026-10-07,5,NZ government tender notice,No,SIMULATED
+GETS-2026-0035,tender_35034968.pdf,2026-09-23 10:50,extracted,2026-09-23 11:05,1.0,schema_tender,2026-09-23,15,NZ government tender notice,No,SIMULATED
+GETS-2026-0036,tender_35056284.pdf,2026-10-02 09:24,extracted,2026-10-02 09:38,1.0,schema_tender,2026-10-02,14,NZ government tender notice,No,SIMULATED
+GETS-2026-0037,tender_33266797.pdf,2026-10-02 15:33,extracted,2026-10-02 15:43,1.0,schema_tender,2026-10-02,10,NZ government tender notice,No,SIMULATED
+GETS-2026-0038,tender_29971844.pdf,2026-10-01 08:43,processed,2026-10-01 17:32,0.5,schema_tender,2026-10-01,529,NZ government tender notice,Yes,SIMULATED
+GETS-2026-0039,tender_31338623.pdf,2026-10-05 16:48,processed,2026-10-06 12:00,0.5,schema_tender,2026-10-05,1152,NZ government tender notice,Yes,SIMULATED
+GETS-2026-0040,tender_34538513.pdf,2026-10-07 13:07,extracted,2026-10-07 13:18,1.0,schema_tender,2026-10-07,11,NZ government tender notice,No,SIMULATED
+GETS-2026-0041,tender_35091767.pdf,2026-09-29 10:29,extracted,2026-09-29 10:31,1.0,schema_tender,2026-09-29,2,NZ government tender notice,No,SIMULATED
+GETS-2026-0042,tender_34733646.pdf,2026-10-06 12:32,extracted,2026-10-06 12:39,1.0,schema_tender,2026-10-06,7,NZ government tender notice,No,SIMULATED
+GETS-2026-0043,tender_34134620.pdf,2026-10-01 09:55,extracted,2026-10-01 10:06,1.0,schema_tender,2026-10-01,11,NZ government tender notice,No,SIMULATED
+GETS-2026-0044,tender_35091453.pdf,2026-10-08 16:38,processed,2026-10-09 07:12,0.5,schema_tender,2026-10-08,874,NZ government tender notice,Yes,SIMULATED
+GETS-2026-0045,tender_33832412.pdf,2026-09-23 13:48,processed,2026-09-24 01:49,0.5,schema_tender,2026-09-23,721,NZ government tender notice,Yes,SIMULATED
+GETS-2026-0046,tender_33694604.pdf,2026-10-01 16:58,extracted,2026-10-01 17:00,1.0,schema_tender,2026-10-01,2,NZ government tender notice,No,SIMULATED
+GETS-2026-0047,tender_34865819.pdf,2026-10-02 13:31,extracted,2026-10-02 13:33,1.0,schema_tender,2026-10-02,2,NZ government tender notice,No,SIMULATED
+GETS-2026-0048,tender_34708070.pdf,2026-09-22 13:56,processed,2026-09-23 11:55,0.5,schema_tender,2026-09-22,1319,NZ government tender notice,Yes,SIMULATED
+GETS-2026-0049,tender_34939478.pdf,2026-09-24 08:15,extracted,2026-09-24 08:35,1.0,schema_tender,2026-09-24,20,NZ government tender notice,No,SIMULATED
+GETS-2026-0050,tender_35008398.pdf,2026-09-22 09:46,extracted,2026-09-22 10:03,1.0,schema_tender,2026-09-22,17,NZ government tender notice,No,SIMULATED
+LEAD-2026-0001,lead_0001.pdf,2026-10-08 09:48,extracted,2026-10-08 10:07,1.0,schema_realestate_lead,2026-10-08,19,Real-estate buyer enquiry email,No,SIMULATED
+LEAD-2026-0002,lead_0002.pdf,2026-10-07 10:08,extracted,2026-10-07 10:25,1.0,schema_realestate_lead,2026-10-07,17,Real-estate buyer enquiry email,No,SIMULATED
+LEAD-2026-0003,lead_0003.pdf,2026-10-01 10:16,needs_review,,0.0,schema_realestate_lead,2026-10-01,,Real-estate buyer enquiry email,Yes,SIMULATED
+LOAN-2026-0001,loan_0001.pdf,2026-10-01 14:13,extracted,2026-10-01 14:32,1.0,schema_loan_application,2026-10-01,19,Home loan application form (New Zealand lender),No,SIMULATED
+LOAN-2026-0002,loan_0002.pdf,2026-10-07 11:45,needs_review,,0.5,schema_loan_application,2026-10-07,,Home loan application form (New Zealand lender),Yes,SIMULATED
+LOAN-2026-0003,loan_0003.pdf,2026-09-25 14:42,needs_review,,0.0,schema_loan_application,2026-09-25,,Home loan application form (New Zealand lender),Yes,SIMULATED
